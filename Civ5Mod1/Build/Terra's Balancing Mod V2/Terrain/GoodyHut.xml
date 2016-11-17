@@ -1,0 +1,35 @@
+<GameData>
+	
+	<!-- Merge Map + Barb ruin, and make them do a map 5 tiles radius from the ruin, with no empty spaces RevealNearbyBarbariansRange="5" MapOffset="1" -->
+	<GoodyHuts>
+		<Update>
+			<Set MapRange="5" MapProb="100" MapOffset="1"/>
+			<Where Type="GOODY_MAP" />
+		</Update>
+	</GoodyHuts>
+
+	<HandicapInfo_Goodies>
+		<Delete GoodyType="GOODY_REVEAL_NEARBY_BARBS" />
+	</HandicapInfo_Goodies>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_GOODY_MAP" />
+		<Row Tag="TXT_KEY_GOODY_MAP">
+			<Text>You discover a crudely-drawn map which outlines nearby terrain and and evidence of recent barbarian activity!</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_GOODY_CHOOSE_MAP" />
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_MAP">
+			<Text>Study their maps of nearby territory and barbarians.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_GOODY_MAP" />
+		<Row Tag="TXT_KEY_GOODY_MAP">
+			<Text>Ihr entdeckt eine grob gezeichnete Karte, die die umliegende Gegend skizziert und Hinweise auf kürzliche Barbarenaktivitäten gibt!</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_GOODY_CHOOSE_MAP" />
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_MAP">
+			<Text>Seht Euch ihre Karten der umliegenden Gegend und Barbarenlager an.</Text>
+		</Row>
+	</Language_DE_DE>
+</GameData>

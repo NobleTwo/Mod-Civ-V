@@ -1,0 +1,9 @@
+<GameData>
+	<!-- The Technology Steel now allows to build Ironworks so the TechTree is more balanced.-->
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_STEEL"/>
+			<Where Type="BUILDING_IRONWORKS"/>
+		</Update>
+	</Buildings>
+</GameData>

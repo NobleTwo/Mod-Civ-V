@@ -1,0 +1,9 @@
+<GameData>
+	<!-- Reduces attack and ranged attack of SotL.-->
+	<Units>
+		<Update>
+			<Set Combat="27" RangedCombat="31"/>
+			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE"/>
+		</Update>
+	</Units>  
+</GameData>

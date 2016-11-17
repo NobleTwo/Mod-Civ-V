@@ -1,0 +1,9 @@
+<GameData>
+	<!-- Set required Technology for Bomb Shelter to Nuclear Fission so it's available as soon as Atomic Bombs.-->
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_NUCLEAR_FISSION"/>
+			<Where Type="BUILDING_BOMB_SHELTER"/>
+		</Update>
+	</Buildings>
+</GameData>

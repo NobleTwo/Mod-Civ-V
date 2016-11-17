@@ -1,0 +1,22 @@
+<GameData>
+	<!-- Increases Social Policy costs by 10% so the Polish UA is a bit weaker.-->
+	<Traits>
+		<Update>
+			<Set PolicyCostModifier="10"/>
+			<Where Type="TRAIT_SOLIDARITY"/>
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="Receive a free Social Policy when you advance to the next era but Social Policy costs are increased by 10%."/>
+			<Where Tag="TXT_KEY_TRAIT_SOLIDARITY"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Ihr erhaltet eine kostenlose Sozialpolitik, wenn Ihr das nächste Zeitalter erreicht, aber die Kosten von Sozialpolitiken sind um 10% erhöht."/>
+			<Where Tag="TXT_KEY_TRAIT_SOLIDARITY"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

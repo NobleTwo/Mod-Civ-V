@@ -1,0 +1,9 @@
+<GameData>
+	<!-- Makes Chateaus available with Guilds instead of Chivalry so it has greater usage.-->
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_GUILDS"/>
+			<Where Type="BUILD_CHATEAU"/>
+		</Update>
+	</Builds>
+</GameData>

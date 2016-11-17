@@ -1,0 +1,9 @@
+<GameData>
+	<!-- Increases ranged attack of Composite Bowmans by 1 so it's worth the addtional costs to Chariot Archers.-->
+	<Units>
+		<Update>
+			<Set RangedCombat="12"/>
+			<Where Type="UNIT_COMPOSITE_BOWMAN"/>
+		</Update>
+	</Units>
+</GameData>

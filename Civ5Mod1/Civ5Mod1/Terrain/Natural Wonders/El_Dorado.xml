@@ -1,0 +1,38 @@
+<GameData>
+	<Features>
+		<Update>
+			<Set FirstFinderGold="0"/>
+			<Where Type="FEATURE_EL_DORADO"/>
+		</Update>
+	</Features>
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_EL_DORADO</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_EL_DORADO</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_EL_DORADO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Feature_YieldChanges>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="Grants 0 [ICON_GOLD] Gold to the first player to discover it."/>
+			<Where Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Der erste Spieler, der El Dorado entdeckt erhält 0 [ICON_GOLD] Gold."/>
+			<Where Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

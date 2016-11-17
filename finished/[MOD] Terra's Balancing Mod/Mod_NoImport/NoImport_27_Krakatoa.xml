@@ -1,0 +1,8 @@
+<GameData>
+	<Natural_Wonder_Placement>
+		<Update>
+			<Set CoreTileCanBeShallowWater="true" CoreTileCanBeAnyTerrainType="false" RequiredNumberOfAdjacentShallowWater="4" AdjacentTilesCareAboutTerrainTypes="true"/>
+			<Where NaturalWonderType="FEATURE_VOLCANO"/>
+		</Update>
+	</Natural_Wonder_Placement>
+</GameData>

@@ -1,0 +1,9 @@
+<GameData>
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+</GameData>

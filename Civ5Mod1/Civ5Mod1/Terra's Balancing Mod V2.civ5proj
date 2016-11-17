@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{aa429ec5-bc73-4367-b492-5ca1409a7a86}</ProjectGuid>
+    <Name>Terra's Balancing Mod V2</Name>
+    <Guid>f64a8324-dd2d-44bd-9feb-80e929d08c28</Guid>
+    <ModVersion>3</ModVersion>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_GREEN]Balances[ENDCOLOR] a few features of Civilization V</Teaser>
+    <Description>Balances a few features of Civilization V. General ideas:[NEWLINE]
+[ICON_BULLET Increase chance to react on an attack. Therefore, Bomb Shelters are available as soon as Nuclear Bombs are; the required promotion for promotion "Blitz" is set to "March" so it's not possible anymore to train XCOMs with "Blitz" if you own "Alhambra" and "Brandenburg Gate".[NEWLINE]
+[ICON_BULLET] Lower the impact of luck in the game. Therefore, El Dorado doesn't provide gold for the first finder anymore; Spain doesn't get gold for being first or subsequent finder of an natural wonder.[NEWLINE]
+[ICON_BULLET] Increase performance of weak Civs: Iroquois, France, Spain (without gold boost), Venice.[NEWLINE]
+[ICON_BULLET] Decrease performance of overly strong Civs: Babylon, England, Korea, Maya, Poland.[NEWLINE]
+[NEWLINE]
+[NEWLINE]
+Complete list of the balanced features: 
+[NEWLINE]
+[ICON_CAPITAL]Buildings[ICON_CAPITAL][NEWLINE]
+[ICON_BULLET] Bomb Shelter: required technology set from "Telecommunications"  to "Nuclear Fission"[NEWLINE]
+[ICON_BULLET] Customs House: Researching Economy now grants an addtional yield of 4 gold instead of 1.
+[NEWLINE]
+[NEWLINE]
+[ICON_CAPITAL]Civilizations[ICON_CAPITAL][NEWLINE]
+[ICON_BULLET] Babylon: Set technology required for free Scientist from "Writing" to "Philosphy".[NEWLINE]
+[ICON_BULLET]England: Ship of the Line now has attack of "27" instead of "30" and ranged attack of "31" instead of "35"[NEWLINE]
+[ICON_BULLET France: required Technology for building "Chateaus" set from "Chivalry" to "Guilds".[NEWLINE]
+[ICON_BULLET] Germany: Increased convertion rate to 100% (up from 67%) to make it reliable.[NEWLINE]
+[ICON_BULLET] Huns: Hunnic Battering Ram now replaces Catapult instead of Spearman. It's still available at Bronze Working.[NEWLINE]
+[ICON_BULLET] Iroquois: Longhouse now grants a reduced workshop-bonus of 5% on productionl. Units don't use Woods as roads anymore but get the 'Woodsman' promotion.[NEWLINE]
+[ICON_BULLET] Korea: Set gained science per Specialist from "2" to "1".[NEWLINE]
+[ICON_BULLET] Maya: Science yield of the Pyramid reduced from "2" to "1".[NEWLINE]
+[ICON_BULLET] Netherlands: Set start bias to "Wetlands" (with NQMap 7.0 and up).[NEWLINE]
+[ICON_BULLET Poland: Social Policy costs increased by 20%.[NEWLINE]
+[ICON_BULLET] Spain: natural wonders first (and subsequent) finder gold set from "500" ("100")  to "0"; cost of Conquistador set from "135" to "120"; Conquistador cannot found cities but remove jungle/forest/swamp[NEWLINE]
+[ICON_BULLET] Venice: number of trade routes-modifier set from "100" to "34". Allows annexing and gaining settlers. Free Merchant of Venice appears after researching "Compass" instead of "Optics". No more purchases in puppeted city states possible. Merchant of Venice can no longer buy city states.[NEWLINE]
+[NEWLINE]
+[NEWLINE]
+[ICON_CAPITAL]Diplomacy[ICON_CAPITAL][NEWLINE
+[ICON_BULLET] Disabled Research Agreements.[NEWLINE]
+[ICON_BULLET] Embassies are vailbale with the beginning of the game.[NEWLINE]
+[ICON_BULLET] Open-Border-Agreements are available from the beginning of the game.[NEWLINE]
+[ICON_CAPITAL]GameOptions[ICON_CAPITAL][NEWLINE
+[ICON_BULLET] Added an option for relative turn timers.[NEWLINE]
+[ICON_BULLET] Added an option for preventing AI relgion spread and AI wonder building.[NEWLINE]
+[ICON_BULLET] Civilization selection sorted by civlization and not by leader.[NEWLINE]
+[NEWLINE]
+[NEWLINE]
+[ICON_CAPITAL]Technologies[ICON_CAPITAL][NEWLINE]
+[ICON_BULLET] Set required technology for building "Ironworks" from "Machinery" to "Steel" to make "Steel" more attractive while "Machinery" stays attractive due to crossbowmans and faster movement on roads.[NEWLINE]
+[NEWLINE]
+[NEWLINE]
+[ICON_CAPITAL]Terrain[ICON_CAPITAL][NEWLINE]
+[ICON_BULLET] El Dorado: first finder gold earned by finding set from "500" to "0".[NEWLINE]
+[ICON_BULLET] Krakatoa: fixed placement[NEWLINE]
+[ICON_BULLET] General balancing of many natural wonders.[NEWLINE]
+[ICON_BULLET] Barb Camp Ruins removed.[NEWLINE]
+[ICON_BULLET] Map Ruins now reveal all terrain and barbarian camps within 5 tiles.[NEWLINE]
+[NEWLINE]
+[NEWLINE]
+[ICON_CAPITAL]Tourism[ICON_CAPITAL][NEWLINE]
+[ICON_BULLET] Wonder Theming Bonuses don't require owner of a different civilization anymore.[NEWLINE]
+[NEWLINE]
+[NEWLINE]
+[ICON_CAPITAL]Units[ICON_CAPITAL][NEWLINE]
+[ICON_BULLET] Separates the counters for Great Scientists, Merchants and Engineers.[NEWLINE]
+[ICON_BULLET] decreased ranged strength of chariot archers and all units that replace it by "1" so that they dominate the era less.[NEWLINE]
+[ICON_BULLET] increased range of Gatling Gun by 1 from "1" to "2", reduced ranged attack from "30" to "25". Should make it a more useful upgrade to crossbows.[NEWLINE]
+[ICON_BULLET] required promotions for "Blitz" set from "Drill III"/"Shock III" to "March"[NEWLINE]
+[ICON_BULLET] Mounted range units (e.g. Chariot Archers) now have a unique class called Mounted Ranged Units.[NEWLINE]
+[ICON_BULLET] Increased ranged attack of Composite Bowmans by 1 so it's worth the additional costs to Chariot Archers.[NEWLINE]
+[ICON_BULLET] Great Prophet: Spawn rate after reaching required amount of faith increased to 100%.[NEWLINE]
+[NEWLINE]
+[NEWLINE]
+[ICON_CAPITAL]GameOptions[ICON_CAPITAL][NEWLINE]
+[ICON_BULLET]In Advanced Setup, choice is sorted by civ and not by leader.</Description>
+    <Authors>Martin</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Civ5Mod1</AssemblyName>
+    <RootNamespace>Civ5Mod1</RootNamespace>
+    <ModReferences />
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/MountedRanged.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Paradrops.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Shared/Unit Created (v 5)/Promotion_Created.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/WetLandsRegion.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/Bomb_Shelter.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/Customs_House.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Babylon.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/England.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/France.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Germany.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Huns.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Iroquois.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Iroquois.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Korea.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Maya.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Netherlands.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Poland.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Spain.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/Venice.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Diplomacy/Embassy.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Diplomacy/OpenBorders.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Diplomacy/ResearchAgreements.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>GameMenus/GameSetupUI.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Chariot Archer.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Composite_Bowman.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Gatling Gun.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/GreatProphet.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Tourism/ThemingBonusChanges.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Barringer_Crater.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/El_Dorado.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Fountain_Of_Youth.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Grand_Mesa.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/King_Solomons_Mines.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Krakatoa.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Lake_Victoria.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Mt_Fuji.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Mt_Kailash.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Mt_Sinai.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Old_Faithful.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Sri_Pada.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/Natural Wonders/Uluru.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Terrain/GoodyHut.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Technologies/Steel.xml</FileName>
+      </Action>
+    </ModActions>
+    <ModContent>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>SerialEventUnitCreatedGood.lua</Name>
+        <Description>SerialEventUnitCreatedGood.lua</Description>
+        <FileName>Shared/Unit Created (v 5)/SerialEventUnitCreatedGood.lua</FileName>
+      </Content>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>SeparateGreatPeopleCounters.lua</Name>
+        <Description>SeparateGreatPeopleCounters.lua</Description>
+        <FileName>Separate Great People Counters/SeparateGreatPeopleCounters.lua</FileName>
+      </Content>
+    </ModContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Buildings\Bomb_Shelter.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\Customs_House.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Babylon.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\England.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\France.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Germany.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Huns.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Iroquois.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Korea.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Maya.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Netherlands.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Poland.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Spain.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\Venice.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Diplomacy\Embassy.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Diplomacy\OpenBorders.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Diplomacy\ResearchAgreements.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="GameMenus\AdvancedSetup.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="GameMenus\GameSetupScreen.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="GameMenus\GameSetupUI.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="GameMenus\MainMenu.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="GameMenus\StagingRoom.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Separate Great People Counters\SeparateGreatPeopleCounters.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Shared\Unit Created %28v 5%29\Promotion_Created.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Shared\Unit Created %28v 5%29\SerialEventUnitCreatedGood.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Technologies\Steel.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\GoodyHut.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Barringer_Crater.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\El_Dorado.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Fountain_Of_Youth.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Grand_Mesa.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\King_Solomons_Mines.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Krakatoa.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Lake_Victoria.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Mt_Fuji.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Mt_Kailash.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Mt_Sinai.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Old_Faithful.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Sri_Pada.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\Natural Wonders\Uluru.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Terrain\WetLandsRegion.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Tourism\ThemingBonusChanges.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Chariot Archer.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Composite_Bowman.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Gatling Gun.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\GreatProphet.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\MountedRanged.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Paradrops.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Buildings" />
+    <Folder Include="Civilizations" />
+    <Folder Include="Diplomacy" />
+    <Folder Include="GameMenus" />
+    <Folder Include="Shared" />
+    <Folder Include="Separate Great People Counters" />
+    <Folder Include="Shared\Unit Created %28v 5%29" />
+    <Folder Include="Units" />
+    <Folder Include="Tourism" />
+    <Folder Include="Terrain" />
+    <Folder Include="Technologies" />
+    <Folder Include="Terrain\Natural Wonders" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

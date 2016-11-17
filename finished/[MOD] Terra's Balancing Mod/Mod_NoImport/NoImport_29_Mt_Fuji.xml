@@ -1,0 +1,19 @@
+<GameData>
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+</GameData>

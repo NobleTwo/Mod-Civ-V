@@ -1,0 +1,9 @@
+<GameData>
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_MESA</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Feature_YieldChanges>  
+</GameData>

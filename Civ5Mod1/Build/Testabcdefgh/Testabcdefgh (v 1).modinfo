@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f64a8324-dd2d-44bd-9feb-80e929d08c28" version="1">
+  <Properties>
+    <Name>Testabcdefgh</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>abcdefghijklm</Teaser>
+    <Description>abcdefghijklm</Description>
+    <Authors>Martin</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="137AA0F2BF21E9D793C14A6FC473FF1F" import="0">Game Rules1.xml</File>
+  </Files>
+</Mod>

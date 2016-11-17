@@ -1,0 +1,9 @@
+<GameData>
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Feature_YieldChanges>
+</GameData>

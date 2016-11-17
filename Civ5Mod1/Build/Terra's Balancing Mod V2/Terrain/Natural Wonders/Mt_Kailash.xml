@@ -1,0 +1,9 @@
+<GameData>
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Feature_YieldChanges>
+</GameData>

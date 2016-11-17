@@ -1,0 +1,9 @@
+<GameData>
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Feature_YieldChanges>
+</GameData>

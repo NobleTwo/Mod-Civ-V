@@ -1,0 +1,22 @@
+<GameData>
+	<!-- Increases Barbarian conversion rate to 100% so it's more reliable.-->
+	<Traits>
+		<Update>
+			<Set LandBarbarianConversionPercent="100"/>
+			<Where Type="TRAIT_CONVERTS_LAND_BARBARIANS"/>
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="Upon defeating a Barbarian unit inside an encampment, you earn 25 [ICON_GOLD] Gold and they join your side. Pay 25% less for land unit maintenance."/>
+			<Where Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Beim Besiegen von Barbaren in Lagern erhaltet Ihr 25 [ICON_GOLD] Gold und sie schließen sich Euch an. 25% weniger Landeinheitenunterhalt."/>
+			<Where Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

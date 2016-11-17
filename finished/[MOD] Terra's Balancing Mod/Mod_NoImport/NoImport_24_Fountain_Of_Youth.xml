@@ -1,0 +1,9 @@
+<GameData>
+	<Features>
+		<Update>
+			<Set InBorderHappiness="2"/>
+			<Where Type="FEATURE_FOUNTAIN_YOUTH"/>
+		</Update>
+	</Features>
+	
+</GameData>

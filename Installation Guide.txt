@@ -1,0 +1,10 @@
+Installation:
+Extract the .zip-archive to your Civ V BNW folder
+(...\Program Files\Steam\SteamApps\common\Sid Meier's Civilization V\Assets\DLC\Expansion2)
+overwriting the existing file "Expansion2.Civ5Pkg".
+
+Quick uninstallation:
+Replace the file "Expansion2.Civ5Pkg" with the one with the same name in the folder "original".
+
+Complete unistallation:
+Additionaly, remove the folder "[MOD] Terra's Balancing Mod".

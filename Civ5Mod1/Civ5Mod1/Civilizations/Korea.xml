@@ -1,0 +1,22 @@
+<GameData>
+	<!-- Decreases Yield per Specialist to 1.-->
+	<Trait_SpecialistYieldChanges>
+		<Update>
+			<Set Yield="1"/>
+			<Where YieldType="YIELD_SCIENCE" TraitType="TRAIT_SCHOLARS_JADE_HALL"/>
+		</Update>
+	</Trait_SpecialistYieldChanges>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="+1 [ICON_RESEARCH] science for all specialists and +2 [ICON_RESEARCH] science for all Great Person tile improvements. Receive a tech boost each time a scientific building/Wonder is built in the Korean capital."/>
+			<Where Tag="TXT_KEY_TRAIT_SCHOLARS_JADE_HALL"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="+1 [ICON_RESEARCH] Wissenschaft für Spezialisten und +2 [ICON_RESEARCH] science Große Persönlichkeiten-Modernisierungen. Technologieschub für jedes neue wissenschaftliche Gebäude/Wunder der Hauptstadt."/>
+			<Where Tag="TXT_KEY_TRAIT_SCHOLARS_JADE_HALL"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

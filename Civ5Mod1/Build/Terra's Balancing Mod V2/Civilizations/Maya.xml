@@ -1,0 +1,9 @@
+<GameData>
+	<!-- Decreases science yield from Pyramid to 1.-->
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="1"/>
+			<Where BuildingType="BUILDING_MAYA_PYRAMID" YieldType="YIELD_SCIENCE"/>
+		</Update>
+	</Building_YieldChanges>
+</GameData>

@@ -1,0 +1,62 @@
+<GameData>
+	<!-- Grants Longhouses a 5% boost on production similar to the Workshop with 10% it replaces.-->
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	
+	<!-- Grants every miltary land unit the 'Woodsman' promotion.-->
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_RANGED</UnitCombatType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="All military units gain the promotion 'Woodsman' (double movement in Forest/Jungle). Forest/Jungle tiles can be used to establish [ICON_CONNECTED] City Connections upon researching The Wheel."/>
+			<Where Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Alle Militäreinheiten erhalten die Beförderung 'Waldkampf' (doppelte Bewegung durch Wald/Dschungel). Nutzung von Wald/Dschungel für [ICON_CONNECTED] Stadtverbindungen nach Erforschung des Rades möglich."/>
+			<Where Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

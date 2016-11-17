@@ -1,0 +1,331 @@
+<GameData>
+	<!-- Allows Venice to found and annex cities. Removes the Merchant's ability to buy CityStates.-->
+	<Traits>
+		<Update>
+			<Set NoAnnexing="false" NumTradeRoutesModifier="34" FreeUnitPrereqTech="TECH_COMPASS"/>
+			<Where Type="TRAIT_SUPER_CITY_STATE"/>
+		</Update>
+	</Traits>
+	<Trait_NoTrain>
+		<Delete TraitType="TRAIT_SUPER_CITY_STATE"/>
+	</Trait_NoTrain>
+	<Units>
+		<Update>
+			<Set CanBuyCityState="false"/>
+			<Where Type="UNIT_VENETIAN_MERCHANT"/>
+		</Update>
+	</Units>
+	<!--
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_VENETIAN_CUSTOMS_HOUSE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CUSTOMS_HOUSE</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PillageGold>20</PillageGold>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+	<Builds>
+		<Row>
+			<Type>BUILD_VENETIAN_CUSTOMS_HOUSE</Type>
+			<ImprovementType>IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE</ImprovementType>
+			<Description>TXT_KEY_BUILD_VENETIAN_CUSTOMS_HOUSE</Description>
+			<Help>TXT_KEY_BUILD_CONSUMED_HELP</Help>
+			<Kill>1</Kill>
+			<EntityEvent>ENTITY_EVENT_MINE</EntityEvent>
+			<HotKey>KB_H</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<IconIndex>57</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_VENETIAN_CUSTOMS_HOUSE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_VENETIAN_CUSTOMS_HOUSE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_VENETIAN_CUSTOMS_HOUSE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+	<Unit_Builds>
+		<Update>
+			<Set BuildType="BUILD_VENETIAN_CUSTOMS_HOUSE"/>
+			<Where UnitType="UNIT_VENETIAN_MERCHANT"/>
+		</Update>
+	</Unit_Builds>-->
+		
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ISTRIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DALMATIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_KOTOR</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DURAZZO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_RAGUSA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_KORFU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MOREA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEGROPONTE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CANDIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_KORON</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MODON</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ADRIANOPOLIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_THESSALONIKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ARCHIPELAGOS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CYPRUS</CityName>
+		</Row>
+	</Civilization_CityNames>
+	
+	<Language_en_US>
+		<Update>
+			<Set Text="Gains an additional [ICON_SWAP] trade route for every three trade routes available. A Merchant of Venice appears after researching Compass."/>
+			<Where Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE"/>
+		</Update>
+		<Row Tag="TXT_KEY_CITY_NAME_ISTRIA">
+			<Text>Istria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DALMATIA">
+			<Text>Dalmatia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KOTOR">
+			<Text>Kotor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DURAZZO">
+			<Text>Durazzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RAGUSA">
+			<Text>Ragusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KORFU">
+			<Text>Korfu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MOREA">
+			<Text>Morea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEGROPONTE">
+			<Text>Negroponte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CANDIA">
+			<Text>Candia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KORON">
+			<Text>Koron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MODON">
+			<Text>Modon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ADRIANOPOLIS">
+			<Text>Adrianopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_THESSALONIKI">
+			<Text>Thessaloniki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ARCHIPELAGOS">
+			<Text>Archipelagos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CYPRUS">
+			<Text>Cyprus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE">
+			<Text>Venetian Customs House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_VENETIAN_CUSTOMS_HOUSE_TEXT">
+			<Text>Since science and wealth go hand in hand, in Venetian Customs Houses not only gold was multiplied but knowledge as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_VENETIAN_CUSTOMS_HOUSE">
+			<Text>Build a Venetian Customs House</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Erhält je einen zusätzlichen [ICON_SWAP] Handelsweg für drei reguläre. Ein Händler von Venedig erscheint nach der Erforschung des Kompasses."/>
+			<Where Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE"/>
+		</Update>
+		<Row Tag="TXT_KEY_CITY_NAME_ISTRIA">
+			<Text>Istria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DALMATIA">
+			<Text>Dalmatia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KOTOR">
+			<Text>Kotor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DURAZZO">
+			<Text>Durazzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RAGUSA">
+			<Text>Ragusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KORFU">
+			<Text>Korfu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MOREA">
+			<Text>Morea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEGROPONTE">
+			<Text>Negroponte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CANDIA">
+			<Text>Candia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KORON">
+			<Text>Koron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MODON">
+			<Text>Modon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ADRIANOPOLIS">
+			<Text>Adrianopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_THESSALONIKI">
+			<Text>Thessaloniki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ARCHIPELAGOS">
+			<Text>Archipelagos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CYPRUS">
+			<Text>Zypern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE">
+			<Text>Venezianisches Warenhaus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_VENETIAN_CUSTOMS_HOUSE_TEXT">
+			<Text>Da Wissenschaft und Reichtum Hand in Hand gehen, wurde in Venezianischen Warenhäusern nicht nur Geld vervielfacht sondern auch Wissen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_VENETIAN_CUSTOMS_HOUSE">
+			<Text>Ein Venezianisches Warenhaus bauen</Text>
+		</Row>
+	</Language_DE_DE>
+</GameData>
