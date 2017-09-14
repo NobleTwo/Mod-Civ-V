@@ -1,0 +1,275 @@
+<GameData>
+	<Buildings>
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_GREAT_LIBRARY"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_PYRAMID"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_STATUE_ZEUS"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_STONEHENGE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_TEMPLE_ARTEMIS"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_COLOSSUS"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_GREAT_LIGHTHOUSE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_GREAT_WALL"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_HANGING_GARDEN"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_ORACLE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_PARTHENON"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_PETRA"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_TERRACOTTA_ARMY"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_ALHAMBRA"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_ANGKOR_WAT"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_BOROBUDUR"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_CHICHEN_ITZA"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_MOSQUE_OF_DJENNE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_HAGIA_SOPHIA"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_MACHU_PICHU"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="4" EnhancedYieldTech="TECH_PRINTING_PRESS"/>
+			<Where BuildingClass="BUILDINGCLASS_NOTRE_DAME"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_FORBIDDEN_PALACE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_HIMEJI_CASTLE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_LEANING_TOWER"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_PORCELAIN_TOWER"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_RED_FORT"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_SISTINE_CHAPEL"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_TAJ_MAHAL"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="5" EnhancedYieldTech="TECH_ARCHAEOLOGY"/>
+			<Where BuildingClass="BUILDINGCLASS_UFFIZI"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="6" EnhancedYieldTech="TECH_RADIO"/>
+			<Where BuildingClass="BUILDINGCLASS_BIG_BEN"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="6" EnhancedYieldTech="TECH_RADIO"/>
+			<Where BuildingClass="BUILDINGCLASS_BRANDENBURG_GATE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="6" EnhancedYieldTech="TECH_RADIO"/>
+			<Where BuildingClass="BUILDINGCLASS_LOUVRE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="7" EnhancedYieldTech="TECH_COMPUTERS"/>
+			<Where BuildingClass="BUILDINGCLASS_BROADWAY"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="18" EnhancedYieldTech="TECH_RADIO"/>
+			<Where BuildingClass="BUILDINGCLASS_EIFFEL_TOWER"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="7" EnhancedYieldTech="TECH_COMPUTERS"/>
+			<Where BuildingClass="BUILDINGCLASS_KREMLIN"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="7" EnhancedYieldTech="TECH_COMPUTERS"/>
+			<Where BuildingClass="BUILDINGCLASS_NEUSCHWANSTEIN"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="7" EnhancedYieldTech="TECH_COMPUTERS"/>
+			<Where BuildingClass="BUILDINGCLASS_PRORA_RESORT"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="7" EnhancedYieldTech="TECH_COMPUTERS"/>
+			<Where BuildingClass="BUILDINGCLASS_STATUE_OF_LIBERTY"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="7" EnhancedYieldTech="TECH_COMPUTERS"/>
+			<Where BuildingClass="BUILDINGCLASS_CRISTO_REDENTOR"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="8" EnhancedYieldTech="TECH_TELECOM"/>
+			<Where BuildingClass="BUILDINGCLASS_GREAT_FIREWALL"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="8" EnhancedYieldTech="TECH_TELECOM"/>
+			<Where BuildingClass="BUILDINGCLASS_PENTAGON"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="8" EnhancedYieldTech="TECH_TELECOM"/>
+			<Where BuildingClass="BUILDINGCLASS_SYDNEY_OPERA_HOUSE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="9" EnhancedYieldTech="TECH_GLOBALIZATION"/>
+			<Where BuildingClass="BUILDINGCLASS_CN_TOWER"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="9" EnhancedYieldTech="TECH_GLOBALIZATION"/>
+			<Where BuildingClass="BUILDINGCLASS_HUBBLE"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="9" EnhancedYieldTech="TECH_GLOBALIZATION"/>
+			<Where BuildingClass="BUILDINGCLASS_INTERNATIONAL_SPACE_STATION"/>
+		</Update>
+
+		<Update>
+			<Set TechEnhancedTourism="9" EnhancedYieldTech="TECH_GLOBALIZATION"/>
+			<Where BuildingClass="BUILDINGCLASS_UNITED_NATIONS"/>
+		</Update>
+	</Buildings>
+	
+	<Language_en_US>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Zoo[ENDCOLOR], a building which increases [ICON_HAPPINESS_1] Happiness in the empire and makes [ICON_GOLDEN_AGE] Golden Ages more likely. Also unlocks the ability to found the World Congress and grants +4 [ICON_TOURISM] Tourism for each World Wonder of the Ancient, Classical and Medieval Era."/>
+			<Where Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP"/>
+		</Update>
+
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Museum[ENDCOLOR], which provides a large boost to [ICON_CULTURE] Culture when built in a city. Also provides other bonuses relating to [ICON_CULTURE] Culture and grants +5 [ICON_TOURISM] Tourism for each World Wonder of the Renaissance Era."/>
+			<Where Tag="TXT_KEY_TECH_ARCHAEOLOGY_HELP"/>
+		</Update>
+
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Broadcast Tower[ENDCOLOR], a building which greatly increases the [ICON_CULTURE] Culture output of a city. Also grants +6 [ICON_TOURISM] Tourism for each World Wonder of the Industrial Era and the Eiffel Tower."/>
+			<Where Tag="TXT_KEY_TECH_RADIO_HELP"/>
+		</Update>
+
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Helicopter Gunship[ENDCOLOR], a unit specialized in fighting enemy tanks. Also grants +7 [ICON_TOURISM] Tourism for each World Wonder of the Modern Era."/>
+			<Where Tag="TXT_KEY_TECH_COMPUTERS_HELP"/>
+		</Update>
+
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Nuclear Submarine[ENDCOLOR], a Naval Unit invisible to most other units and capable of carrying 2 Missiles. Also grants +8 [ICON_TOURISM] Tourism for each World Wonder of the Atomic Era."/>
+			<Where Tag="TXT_KEY_TECH_TELECOM_HELP"/>
+		</Update>
+
+		<Update>
+			<Set Text="With Globalization, each Spy you send to another Civilization as a [ICON_DIPLOMAT] Diplomat will increase the number of Delegates you control in the World Congress, bringing you closer to [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR]. Also grants +9 [ICON_TOURISM] Tourism for each World Wonder of the Information Era."/>
+			<Where Tag="TXT_KEY_TECH_GLOBALIZATION_HELP"/>
+		</Update>
+
+		<Update>
+			<Set Text="In addition to its [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture effects, the Eiffel Tower also provides +18 [ICON_TOURISM] Tourism."/>
+			<Where Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP"/>
+		</Update>
+	</Language_en_US>
+</GameData>

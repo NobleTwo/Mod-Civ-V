@@ -1,0 +1,27 @@
+<GameData>
+
+	<!-- Open Borders allowed from game start. -->
+	<Technologies>
+		<Update>
+			<Set OpenBordersTradingAllowed="false" />
+			<Where Type="TECH_CIVIL_SERVICE" />
+		</Update>
+		<Update>
+			<Set OpenBordersTradingAllowed="true" />
+			<Where Type="TECH_AGRICULTURE" />
+		</Update>
+	</Technologies>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY" />
+		<Row Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY">
+			<Text>You can enter into an Open Borders agreement with any civ where you have established an Embassy. (City-States can't make Open Borders agreements.) While an Open Borders agreement is in effect, the other civ's units can enter your territory without automatically triggering war. If the agreement is mutual, either civ's units can enter the other's territory freely; however it doesn't have to be mutual: one civ can grant another Open Borders without automatically receiving it in return.[NEWLINE][NEWLINE]An Open Borders agreement lasts for 20 turns. When 20 turns have passed, the agreement must be renegotiated or it lapses.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY" />
+		<Row Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY">
+			<Text>Ihr könnt ein Offene-Grenzen-Abkommen mit jeder Zivilisation eingehen, in der Ihr eine Botschaft errichtet habt. (Stadtstaaten können keine Offene-Grenzen-Abkommen eingehen.) Wenn ein Offene-Grenzen-Abkommen in Kraft ist, können Einheiten der anderen Zivilisation Euer Territorium durchqueren, ohne dass dabei automatisch ein Krieg ausgelöst wird. Wenn beide Seiten dem Abkommen zugestimmt haben, können die Einheiten beider Partner frei das Gebiet des anderen durchqueren - es ist jedoch nicht nötig, dass beide Seiten zustimmen: Eine Zivilisation kann einer anderen ein Offene-Grenzen-Abkommen aussprechen, ohne selbst eins zu erhalten.[NEWLINE][NEWLINE]Ein Offene-Grenzen-Abkommen gilt 20 Runden lang. Sobald diese vorbei sind, muss das Abkommen neu geschlossen werden oder es wird aufgehoben.</Text>
+		</Row>
+	</Language_DE_DE>
+</GameData>

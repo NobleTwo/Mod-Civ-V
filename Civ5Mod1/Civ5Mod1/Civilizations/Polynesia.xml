@@ -1,0 +1,8 @@
+<GameData>
+	<Units>
+		<Update>
+			<Set SpreadReligion="true" ReligiousStrength="500" ReligionSpreads="2"/>
+			<Where Type="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+		</Update>
+	</Units>
+</GameData>

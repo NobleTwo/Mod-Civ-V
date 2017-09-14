@@ -1,9 +1,8 @@
 <GameData>
 	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_ULURU</FeatureType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>3</Yield>
-		</Row>
+		<Update>
+			<Set Yield="3"/>
+			<Where FeatureType="FEATURE_ULURU" YieldType="YIELD_FAITH"/>
+		</Update>
 	</Feature_YieldChanges>
 </GameData>

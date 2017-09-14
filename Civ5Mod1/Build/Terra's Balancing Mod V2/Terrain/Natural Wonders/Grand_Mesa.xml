@@ -1,9 +1,8 @@
 <GameData>
 	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_MESA</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
-		</Row>
+		<Update>
+			<Set Yield="3"/>
+			<Where FeatureType="FEATURE_MESA" YieldType="YIELD_PRODUCTION"/>
+		</Update>
 	</Feature_YieldChanges>  
 </GameData>

@@ -1,9 +1,8 @@
 <GameData>
 	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_MT_SINAI</FeatureType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
-		</Row>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_MT_SINAI" YieldType="YIELD_FAITH"/>
+		</Update>
 	</Feature_YieldChanges>
 </GameData>

@@ -16,11 +16,11 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		<Row>
-			<FeatureType>FEATURE_EL_DORADO</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
-		</Row>
+		
+		<Update>
+			<Set Yield="3"/>
+			<Where FeatureType="FEATURE_EL_DORADO" YieldType="YIELD_CULTURE"/>
+		</Update>
 	</Feature_YieldChanges>
 
 	<Language_en_US>

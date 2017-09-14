@@ -1,14 +1,14 @@
 <GameData>
 	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_SRI_PADA</FeatureType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_SRI_PADA</FeatureType>
-			<YieldType>YIELD_HAPPINESS</YieldType>
-			<Yield>1</Yield>
-		</Row>
+		<Update>
+			<Set Yield="2"/>
+			<Where FeatureType="FEATURE_SRI_PADA" YieldType="YIELD_FAITH"/>
+		</Update>
 	</Feature_YieldChanges>
+	<Features>
+		<Update>
+			<Set InBorderHappiness="1"/>
+			<Where Type="FEATURE_SRI_PADA"/>
+		</Update>
+	</Features>
 </GameData>

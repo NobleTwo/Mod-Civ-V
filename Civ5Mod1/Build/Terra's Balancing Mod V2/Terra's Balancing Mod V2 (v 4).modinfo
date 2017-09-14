@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f64a8324-dd2d-44bd-9feb-80e929d08c28" version="4">
+  <Properties>
+    <Name>Terra's Balancing Mod V2</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_GREEN]Balances[ENDCOLOR] a few features of Civilization V</Teaser>
+    <Description>Balances a few features of Civilization V. General ideas:[NEWLINE]
+[ICON_BULLET Increase chance to react on an attack. Therefore, Bomb Shelters are available as soon as Nuclear Bombs are; XCOMs cannot gain the promotion "Blitz" anymore..[NEWLINE]
+[ICON_BULLET] Lower the impact of luck in the game. Therefore, El Dorado doesn't provide gold for the first finder anymore; Spain doesn't get gold for being first or subsequent finder of an natural wonder.[NEWLINE]
+[ICON_BULLET] Increase performance of weak Civs: Iroquois, France, Spain (without gold boost), Venice.[NEWLINE]
+[ICON_BULLET] Decrease performance of overly strong Civs: Babylon, England, Korea, Maya, Poland.[NEWLINE]</Description>
+    <Authors>Martin</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="C51C61F20F6DB9C1BE8EF3E279C194EF" import="0">Buildings/Bomb_Shelter.xml</File>
+    <File md5="AE2A3677D8E6F81AE97CBE130A022F69" import="0">Buildings/Customs_House.xml</File>
+    <File md5="521713EB93BBA9E5E0D498D8BDDBE5B2" import="1">Chat/DiploCorner.lua</File>
+    <File md5="0CD03112323DD52006FB18770C4F75C7" import="0">Civilizations/Arabia.xml</File>
+    <File md5="346E891988FC0DD585F1C7EC804F65CC" import="0">Civilizations/Babylon.xml</File>
+    <File md5="89D68131F93A5E4DACEA64DC51703C1C" import="0">Civilizations/England.xml</File>
+    <File md5="CEC560DFAD0D3BF9B8BA1738BBDABA2F" import="0">Civilizations/France.xml</File>
+    <File md5="B6C5B29647482084C3D18DC11381A690" import="0">Civilizations/Germany.xml</File>
+    <File md5="BA28799D3AB7722507C423977343F250" import="0">Civilizations/Iroquois.xml</File>
+    <File md5="9652AD8B4D200419734E7BEFD5030AE4" import="0">Civilizations/Korea.xml</File>
+    <File md5="DEA8D5B4C19839FDB919BE306187EF2A" import="0">Civilizations/Maya.xml</File>
+    <File md5="58EED4BE21321B4DEF9BCC788887114E" import="0">Civilizations/Netherlands.xml</File>
+    <File md5="BF406C14E13F560090F4D92C82E79D32" import="0">Civilizations/Poland.xml</File>
+    <File md5="DB56A257151D4244F4187FB11DE0D1A3" import="0">Civilizations/Spain.xml</File>
+    <File md5="BEB2956263E1CCA5CF3A72320A43FBC7" import="0">Civilizations/Venice.xml</File>
+    <File md5="0CD5160F3EBE890C73E486B1F5053697" import="0">Diplomacy/EmbargoCityStates.xml</File>
+    <File md5="CD0561A515F39D563DE69D53061319C3" import="0">Diplomacy/Embassy.xml</File>
+    <File md5="C61411286F215174E22E0D098842521C" import="0">Diplomacy/OpenBorders.xml</File>
+    <File md5="71027571D574393162F8C789EE175B0C" import="0">Diplomacy/ResearchAgreements.xml</File>
+    <File md5="BFE9675B89EAB51431A5D45AFCEFE669" import="1">GameMenus/AdvancedSetup.lua</File>
+    <File md5="A58F1AAAAE22AE3CC47441CA751EC2BB" import="1">GameMenus/GameSetupScreen.lua</File>
+    <File md5="7FF698BD3F54460AE1D8D209DCEDDE31" import="0">GameMenus/GameSetupUI.xml</File>
+    <File md5="35468ED3D1520D0294BE446698EBAD2A" import="1">GameMenus/MainMenu.lua</File>
+    <File md5="D86131052EAC98512F2ABAE726A0642D" import="1">GameMenus/StagingRoom.lua</File>
+    <File md5="2F35D349BCEAB8380E302C890BAA39AF" import="0">Notifications/GoodyHutPopup.lua</File>
+    <File md5="80E940F5945744702B269D09110FA103" import="1">Notifications/GoodyHutPopup.xml</File>
+    <File md5="65BF2379232D068E66CF214D2035DE2B" import="0">Religions/TundraFaith.xml</File>
+    <File md5="EC371E6C8DF1639A1A991D9FEACCD5FB" import="1">Separate Great People Counters/SeparateGreatPeopleCounters.lua</File>
+    <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Unit Created (v 5)/Promotion_Created.xml</File>
+    <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="1">Shared/Unit Created (v 5)/SerialEventUnitCreatedGood.lua</File>
+    <File md5="900D9A612E431521E5E83B7185288EFB" import="0">Technologies/Steel.xml</File>
+    <File md5="A1398F8689AD32BD23EC237F1CB07E9E" import="0">Terrain/GoodyHut.xml</File>
+    <File md5="A590DD1AE29C1ABE11316D340C18B6FA" import="0">Terrain/Natural Wonders/Barringer_Crater.xml</File>
+    <File md5="E82A04F6628D1881B1C8AEACF7F1E844" import="0">Terrain/Natural Wonders/El_Dorado.xml</File>
+    <File md5="DC8F185235F64266F952A0952749BC99" import="0">Terrain/Natural Wonders/Fountain_Of_Youth.xml</File>
+    <File md5="7EB490870C96A04360C6C1A7300689DB" import="0">Terrain/Natural Wonders/Grand_Mesa.xml</File>
+    <File md5="64EB06F28A507C4CA371FF2C1B1B723F" import="0">Terrain/Natural Wonders/King_Solomons_Mines.xml</File>
+    <File md5="8B515B5906DD0F0DB7E677D935E16D81" import="0">Terrain/Natural Wonders/Krakatoa.xml</File>
+    <File md5="326A2DEE8AC26D9DD76DBBDC51E0456C" import="0">Terrain/Natural Wonders/Lake_Victoria.xml</File>
+    <File md5="350C78B963028FEF6CB29B06DBD65492" import="0">Terrain/Natural Wonders/Mt_Fuji.xml</File>
+    <File md5="E8B01074EAFF1B9D7723E6DEE748167C" import="0">Terrain/Natural Wonders/Mt_Kailash.xml</File>
+    <File md5="6042408A133DDEC75882FBF26E8330D9" import="0">Terrain/Natural Wonders/Mt_Sinai.xml</File>
+    <File md5="0DCFB8C6A3BC9BAE0745D418821653B3" import="0">Terrain/Natural Wonders/Old_Faithful.xml</File>
+    <File md5="557426F6AE93AA1868FEC84BCF175A23" import="0">Terrain/Natural Wonders/Sri_Pada.xml</File>
+    <File md5="D69B83231FA86F7EE1B50511660DC3A0" import="0">Terrain/Natural Wonders/Uluru.xml</File>
+    <File md5="74C6243A7D1F383051BBCC555191BF61" import="0">Terrain/WetLandsRegion.xml</File>
+    <File md5="0DF3793254BE7C4C73110DDABF286EBF" import="0">Tourism/ThemingBonusChanges.xml</File>
+    <File md5="80CEE5B101B5256A3230E50E300C8012" import="0">Units/Chariot Archer.xml</File>
+    <File md5="2A15CB2E114918D50E00B6F73DCBA53D" import="0">Units/Composite_Bowman.xml</File>
+    <File md5="71D9F9EE16E8DAAB2DEA0D61AA98F476" import="0">Units/Gatling Gun.xml</File>
+    <File md5="0A8BF972B9DF3860DA630B299EEE72A2" import="0">Units/GreatProphet.xml</File>
+    <File md5="A3E36B07E8009515F49E39A62796F0E2" import="0">Units/MountedRanged.xml</File>
+    <File md5="5CD691212F54C8D567E7409BF741486B" import="0">Units/Paradrops.xml</File>
+    <File md5="1BBE41BC90C588A71BF6555EDE2CBC08" import="0">Units/Settlers.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Units/MountedRanged.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Paradrops.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/Unit Created (v 5)/Promotion_Created.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/WetLandsRegion.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Bomb_Shelter.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Customs_House.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Arabia.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Babylon.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/England.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/France.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Germany.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Iroquois.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Iroquois.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Korea.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Maya.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Netherlands.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Poland.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Spain.xml</UpdateDatabase>
+      <UpdateDatabase>Civilizations/Venice.xml</UpdateDatabase>
+      <UpdateDatabase>Diplomacy/EmbargoCityStates.xml</UpdateDatabase>
+      <UpdateDatabase>Diplomacy/Embassy.xml</UpdateDatabase>
+      <UpdateDatabase>Diplomacy/OpenBorders.xml</UpdateDatabase>
+      <UpdateDatabase>Diplomacy/ResearchAgreements.xml</UpdateDatabase>
+      <UpdateDatabase>GameMenus/GameSetupUI.xml</UpdateDatabase>
+      <UpdateDatabase>Religions/TundraFaith.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Chariot Archer.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Composite_Bowman.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Gatling Gun.xml</UpdateDatabase>
+      <UpdateDatabase>Units/GreatProphet.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Settlers.xml</UpdateDatabase>
+      <UpdateDatabase>Tourism/ThemingBonusChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Barringer_Crater.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/El_Dorado.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Fountain_Of_Youth.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Grand_Mesa.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/King_Solomons_Mines.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Krakatoa.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Lake_Victoria.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Mt_Fuji.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Mt_Kailash.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Mt_Sinai.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Old_Faithful.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Sri_Pada.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Natural Wonders/Uluru.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/GoodyHut.xml</UpdateDatabase>
+      <UpdateDatabase>Technologies/Steel.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Shared/Unit Created (v 5)/SerialEventUnitCreatedGood.lua">
+      <Name>SerialEventUnitCreatedGood.lua</Name>
+      <Description>SerialEventUnitCreatedGood.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Separate Great People Counters/SeparateGreatPeopleCounters.lua">
+      <Name>SeparateGreatPeopleCounters.lua</Name>
+      <Description>SeparateGreatPeopleCounters.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Chat/DiploCorner.lua">
+      <Name>DiploCorner.lua</Name>
+      <Description>DiploCorner.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Notifications/GoodyHutPopup.lua">
+      <Name>GoodyHutPopup.lua</Name>
+      <Description>GoodyHutPopup.lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

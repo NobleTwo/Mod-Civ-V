@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Terra's Balancing Mod", "Civ5Mod1\Terra's Balancing Mod.civ5proj", "{AA429EC5-BC73-4367-B492-5CA1409A7A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Default|x86.ActiveCfg = Default|x86
+		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Default|x86.Build.0 = Default|x86
+		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Package Only|x86.ActiveCfg = Package Only|x86
+		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

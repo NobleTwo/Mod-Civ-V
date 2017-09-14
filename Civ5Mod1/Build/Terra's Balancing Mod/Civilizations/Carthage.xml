@@ -1,0 +1,16 @@
+<!-- Gives Carthage a free Great General after researching Horseback Riding, i.e. when it's possible to train African Forest Elephants.-->
+<GameData>	
+	<Language_en_US>
+		<Update>
+			<Set Text="All coastal Cities get a free Harbor. Units may cross mountains after the first Great General is earned, taking 50 HP damage if they end a turn on a mountain. A Great General is earned upon researching Horseback Riding."/>
+			<Where Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE"/>
+		</Update>
+	</Language_en_US>
+
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Alle Küstenstädte bekommen einen kostenlosen Hafen. Nach dem ersten Großen General können die Einheiten Gebirge überqueren. Endet ein Zug im Gebirge, bringt dies 50 TP Schaden. Ein Großer General wird durch Erforschen der Reiterei verdient."/>
+			<Where Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

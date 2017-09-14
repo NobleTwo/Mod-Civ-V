@@ -5,15 +5,14 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<FeatureType>FEATURE_FUJI</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_FUJI</FeatureType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
-		</Row>
+
+		<Update>
+			<Set Yield="2"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Update>
+			<Set Yield="2"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_FAITH"/>
+		</Update>
 	</Feature_YieldChanges>
 </GameData>

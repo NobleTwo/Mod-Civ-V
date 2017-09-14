@@ -15,6 +15,10 @@
 			<Where Type="UNIT_VENETIAN_MERCHANT"/>
 		</Update>
 	</Units>
+
+	<!-- So Venice does not start with an additional Merchant of Venice when starting Renaissance.-->
+
+
 	<!--
 	<Improvements>
 		<Row>
@@ -213,6 +217,10 @@
 			<Set Text="Gains an additional [ICON_SWAP] trade route for every three trade routes available. A Merchant of Venice appears after researching Compass."/>
 			<Where Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE"/>
 		</Update>
+		<Update>
+			<Set Text="[COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital."/>
+			<Where Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP"/>
+		</Update>
 		<Row Tag="TXT_KEY_CITY_NAME_ISTRIA">
 			<Text>Istria</Text>
 		</Row>
@@ -258,20 +266,15 @@
 		<Row Tag="TXT_KEY_CITY_NAME_CYPRUS">
 			<Text>Cyprus</Text>
 		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE">
-			<Text>Venetian Customs House</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_VENETIAN_CUSTOMS_HOUSE_TEXT">
-			<Text>Since science and wealth go hand in hand, in Venetian Customs Houses not only gold was multiplied but knowledge as well.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_VENETIAN_CUSTOMS_HOUSE">
-			<Text>Build a Venetian Customs House</Text>
-		</Row>
 	</Language_en_US>
 	<Language_DE_DE>
 		<Update>
 			<Set Text="Erhält je einen zusätzlichen [ICON_SWAP] Handelsweg für drei reguläre. Ein Händler von Venedig erscheint nach der Erforschung des Kompasses."/>
 			<Where Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE"/>
+		</Update>
+		<Update>
+			<Set Text="[COLOR_POSITIVE_TEXT]Kollektivherrschaft[ENDCOLOR][NEWLINE]Beschleunigt die Ausbildung von [COLOR_POSITIVE_TEXT]Siedlern[ENDCOLOR] um 50% in der [ICON_CAPITAL] Hauptstadt und ein kostenloser Siedler erscheint in der Nähe der [ICON_CAPITAL] Hauptstadt."/>
+			<Where Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP"/>
 		</Update>
 		<Row Tag="TXT_KEY_CITY_NAME_ISTRIA">
 			<Text>Istria</Text>
@@ -317,15 +320,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CYPRUS">
 			<Text>Zypern</Text>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_VENETIAN_CUSTOMS_HOUSE">
-			<Text>Venezianisches Warenhaus</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_VENETIAN_CUSTOMS_HOUSE_TEXT">
-			<Text>Da Wissenschaft und Reichtum Hand in Hand gehen, wurde in Venezianischen Warenhäusern nicht nur Geld vervielfacht sondern auch Wissen.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_VENETIAN_CUSTOMS_HOUSE">
-			<Text>Ein Venezianisches Warenhaus bauen</Text>
 		</Row>
 	</Language_DE_DE>
 </GameData>

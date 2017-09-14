@@ -1,0 +1,8 @@
+<GameData>
+	<Units>
+		<Update>
+			<Set RangedCombat="19"/>
+			<Where Type="UNIT_ARABIAN_CAMELARCHER"/>
+		</Update>
+	</Units>
+</GameData>

@@ -1,0 +1,8 @@
+<GameData>
+	<Improvement_TechYieldChanges>
+		<Update>
+			<Set Yield="4"/>
+			<Where ImprovementType="IMPROVEMENT_CUSTOMS_HOUSE" TechType="TECH_ECONOMICS" YieldType="YIELD_GOLD"/>
+		</Update>
+	</Improvement_TechYieldChanges>
+</GameData>

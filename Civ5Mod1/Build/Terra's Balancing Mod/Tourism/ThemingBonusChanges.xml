@@ -1,0 +1,82 @@
+<GameData>
+	
+	<!-- OXFORD UNIVERSITY -->
+	<Building_ThemingBonuses>
+		<Update>
+			<Set RequiresAnyButOwner="false" />
+			<Where BuildingType="BUILDING_OXFORD_UNIVERSITY" />
+		</Update>
+	</Building_ThemingBonuses>
+	<Language_en_US>
+		<Update>
+			<Set Text="To maximize your bonus, make sure the Great Work Slots are all filled with Writings from different Eras."/>
+			<Where Tag="TXT_KEY_OXFORD_UNIVERSITY_THEMING_BONUS_HELP"/>
+		</Update> 
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Stellt sicher, dass die Großes Werk-Plätze mit Schriften aus verschiedenen Äras gefüllt sind, um den Bonus zu maximieren."/>
+			<Where Tag="TXT_KEY_OXFORD_UNIVERSITY_THEMING_BONUS_HELP"/>
+		</Update>
+	</Language_DE_DE>
+
+	<!-- HERMITAGE -->
+	<Building_ThemingBonuses>
+		<Update>
+			<Set RequiresUniquePlayers="false" />
+			<Where BuildingType="BUILDING_HERMITAGE" />
+		</Update>
+	</Building_ThemingBonuses>
+	<Language_en_US>
+		<Update>
+			<Set Text="To maximize your bonus, make sure the Great Work Slots are all filled with Art from different Eras."/>
+			<Where Tag="TXT_KEY_HERMITAGE_THEMING_BONUS_HELP"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Stellt sicher, dass die Großes Werk-Plätze mit Kunstwerken aus verschiedenen Äras gefüllt sind, um den Bonus zu maximieren."/>
+			<Where Tag="TXT_KEY_HERMITAGE_THEMING_BONUS_HELP"/>
+		</Update>
+	</Language_DE_DE>
+
+	<!-- GREAT LIBRARY -->
+	<Building_ThemingBonuses>
+		<Update>
+			<Set RequiresUniquePlayers="false" />
+			<Where BuildingType="BUILDING_GREAT_LIBRARY" />
+		</Update>
+	</Building_ThemingBonuses>
+	<Language_en_US>
+		<Update>
+			<Set Text="To maximize your bonus, make sure the Great Work Slots are all filled with Writings from different Eras."/>
+			<Where Tag="TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Stellt sicher, dass die Großes Werk-Plätze mit Schriften aus verschiedenen Äras gefüllt sind, um den Bonus zu maximieren."/>
+			<Where Tag="TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP"/>
+		</Update>
+	</Language_DE_DE>
+
+	<!-- LOUVRE -->
+	<Building_ThemingBonuses>
+		<Update>
+			<Set RequiresUniquePlayers="false" />
+			<Where BuildingType="BUILDING_LOUVRE" />
+		</Update>
+	</Building_ThemingBonuses>
+	<Language_en_US>
+		<Update>
+			<Set Text="To maximize your bonus, make sure the Great Work Slots are filled with 2 Great Works of Art and 2 Artifacts with all 4 being from different Eras."/>
+			<Where Tag="TXT_KEY_LOUVRE_THEMING_BONUS_HELP"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Stellt sicher, dass die Großes Werk-Plätze mit 2 Großen Kunstwerken und 2 Artefakten jeweils aus verschiedenen Äras gefüllt sind, um den Bonus zu maximieren."/>
+			<Where Tag="TXT_KEY_LOUVRE_THEMING_BONUS_HELP"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

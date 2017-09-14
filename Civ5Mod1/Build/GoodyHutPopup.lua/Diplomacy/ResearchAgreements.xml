@@ -1,0 +1,21 @@
+<GameData>
+	<!-- Remove Research Agreements -->
+	<Technologies>
+		<Update>
+			<Set ResearchAgreementTradingAllowed="false" />
+			<Where Type="TECH_EDUCATION" />
+		</Update>
+	</Technologies>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH" />
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+			<Text>Research Agreements are disabled.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH" />
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+			<Text>Forschungsabkommen sind deaktiviert.</Text>
+		</Row>
+	</Language_DE_DE>
+</GameData>

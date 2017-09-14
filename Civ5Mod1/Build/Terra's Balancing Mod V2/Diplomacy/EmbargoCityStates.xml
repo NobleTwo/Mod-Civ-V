@@ -1,0 +1,8 @@
+<GameData>
+	<Resolutions>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_RADIO"/>
+			<Where Type="RESOLUTION_ALL_CITY_STATES_EMBARGO"/>
+		</Update>
+	</Resolutions>
+</GameData>

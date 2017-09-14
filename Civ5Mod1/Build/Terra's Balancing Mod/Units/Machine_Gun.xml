@@ -1,0 +1,9 @@
+<GameData>
+	<!-- Increases range of Machine Guns by 1.-->
+	<Units>
+		<Update>
+			<Set Range="2"/>
+			<Where Class="UNITCLASS_MACHINE_GUN"/>
+		</Update>
+	</Units>
+</GameData>

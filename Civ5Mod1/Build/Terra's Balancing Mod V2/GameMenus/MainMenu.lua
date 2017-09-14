@@ -13,7 +13,7 @@ local bHidePreGame = true;
 local fTime = 0;
 local i1, i2 = string.find( UI.GetVersionInfo(), " " );
 versionNumber = string.sub(UI.GetVersionInfo(), 1, i2-1);
-Controls.VersionNumber:SetText("Terra's Balancing Mod v1.0");
+Controls.VersionNumber:SetText("Terra's Balancing Mod v1.1");
 
 
 function ShowHideHandler( bIsHide, bIsInit )

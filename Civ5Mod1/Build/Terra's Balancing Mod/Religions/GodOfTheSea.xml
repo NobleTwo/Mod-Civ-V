@@ -1,0 +1,56 @@
+<!-- Removes production from fishing boats and grants production from all sea ressources. -->
+
+<GameData>
+	<Belief_ImprovementYieldChanges>
+		<Delete BeliefType="BELIEF_GOD_SEA"/>
+	</Belief_ImprovementYieldChanges>
+
+	<Belief_ResourceYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ResourceYieldChanges>
+
+	<Belief_FeatureYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_FeatureYieldChanges>
+	
+	<Language_en_US>
+		<Update>
+			<Set Text="+1 [ICON_PRODUCTION] Production from Sea Ressources and Atolls"/>
+			<Where Tag="TXT_KEY_BELIEF_GOD_SEA"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="+1 [ICON_PRODUCTION] Produktion von Meeresressourcen und Atollen"/>
+			<Where Tag="TXT_KEY_BELIEF_GOD_SEA"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

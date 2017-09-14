@@ -1,0 +1,22 @@
+<GameData>
+	<!-- Sets the appearance of the free Great Scientist to Philosphy instead of Writing so it has less influence on the game.-->
+	<Traits>
+		<Update>
+			<Set FreeUnitPrereqTech="TECH_PHILOSOPHY"/>
+			<Where Type="TRAIT_INGENIOUS"/>
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="Receive free Great Scientist when you discover Philosophy. Earn Great Scientists 50% faster."/>
+			<Where Tag="TXT_KEY_TRAIT_INGENIOUS"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Freier Großer Wissenschaftler, wenn Ihr Philosophie erforscht. Große Wissenschaftler tauchen 50% schneller auf."/>
+			<Where Tag="TXT_KEY_TRAIT_INGENIOUS"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

@@ -49,13 +49,13 @@
 
 	<Language_en_US>
 		<Update>
-			<Set Text="All military units gain the promotion 'Woodsman' (double movement in Forest/Jungle). Forest/Jungle tiles can be used to establish [ICON_CONNECTED] City Connections upon researching The Wheel."/>
+			<Set Text="All military units have the Woodsman promotion, giving them double movement in Forest/Jungle. Forest/Jungle tiles can be used to establish [ICON_CONNECTED] City Connections upon researching The Wheel."/>
 			<Where Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST"/>
 		</Update>
 	</Language_en_US>
 	<Language_DE_DE>
 		<Update>
-			<Set Text="Alle Militäreinheiten erhalten die Beförderung 'Waldkampf' (doppelte Bewegung durch Wald/Dschungel). Nutzung von Wald/Dschungel für [ICON_CONNECTED] Stadtverbindungen nach Erforschung des Rades möglich."/>
+			<Set Text="Alle Militäreinheiten besitzen die Waldkampf-Beförderung, durch die sie doppelte Bewegung in Wald/Dschungel erhalten. Nutzung von Wald/Dschungel für [ICON_CONNECTED] Stadtverbindungen nach Erforschung des Rades möglich."/>
 			<Where Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST"/>
 		</Update>
 	</Language_DE_DE>

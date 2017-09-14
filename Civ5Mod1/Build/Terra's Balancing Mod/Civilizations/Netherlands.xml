@@ -1,0 +1,9 @@
+<GameData>
+	<!-- Give Netherlands a Wetlands Bias for Hellblazer's map scripts -->
+	<Civilization_Start_Region_Priority>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_NETHERLANDS"/>
+			<Set RegionType="REGION_WETLANDS"/>
+		</Update>
+	</Civilization_Start_Region_Priority>
+</GameData>

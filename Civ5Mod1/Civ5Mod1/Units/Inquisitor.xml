@@ -1,0 +1,8 @@
+<GameData>
+	<Units>
+		<Update>
+			<Set CombatLimit="100" CombatClass="UNITCOMBAT_MELEE"/>
+			<Where Type="UNIT_INQUISITOR"/>
+		</Update>
+	</Units>  
+</GameData>

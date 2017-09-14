@@ -1,0 +1,47 @@
+- Waffenstillstand nach Declaration of Friendship, no CityStateAlly change when Declaration of Friendship
+
+- MODPACK?!
+- improve ai: less religious spread -> more saving, more ranged units, less wonders
+
+- Textfarbe Chat (DiploCorner) -> ColorAtlas.xml, insert by hand
+- icon created (separate great people counters): transparent
+
+- Barbs can found cities
+- maps for odd numbers of players
+
+- polynesia: improve warrior somehow -> build sea improvements/ moais, Nau + replace scout
+		tourism from Moais?
+
+- religious warfare
+- make terrain visible at start instead of increasing settlers' visibility range
+
+Pantheons:
+
+maybe
+- Culture From Shrines
+- 30HP healed if adjacent to friendly city
+- 10% faster growth rate
+- 1 production in cities with population 3+
+- culture from pastures
+- faith from battles within 4 tiles of city
+- 1 happiness from citites population 6+
+- 30% city ranged combat
+- 1 food from camps
+- 2 science from city connections
+- 15% wonder production
+- 1 culture from plantations
+- 15% faster border growth
+- 1 culture from jungle
+- 1 happinness from cities on rivers
+- 1 food from banana, citrus, wheat
+some too strong?
+
+Japan
+religious victory
+blackmail city state for vote
+economic?
+
+
+VERSCHOBEN BIS NEUE IDEEN ZUR UMSETZUNG:
+- PopUp Culture-Ruin (MP) -> Notification
+- 1 Faith from Tundra
