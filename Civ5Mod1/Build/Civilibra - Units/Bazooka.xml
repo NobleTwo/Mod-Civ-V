@@ -1,0 +1,31 @@
+<GameData>
+	<!-- Increases range of Bazookas by 1.-->
+	<Units>
+		<Update>
+			<Set Range="2"/>
+			<Where Class="UNITCLASS_BAZOOKA"/>
+		</Update>
+	</Units>
+	
+	<!-- Adjust text info. -->
+	<Language_en_US>
+		<Update>
+			<Set Text="The Bazooka is the last non-siege ranged unit. It is the most powerful ranged unit and can deal significant damage to other units without being hurt itself. This makes it a great defense unit."/>
+			<Where Tag="TXT_KEY_UNIT_BAZOOKA_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Atomic era ranged Unit."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_BAZOOKA"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Die Bazooka ist die letzte Nicht-Belagerungs-Fernkampfeinheit. Es ist die mächtigste Fernkampfeinheit. Sie verursacht bei anderen Einheiten beträchtlichen Schaden, ohne selbst Schaden zu nehmen. Das macht sie zu einer sehr guten Verteidigungseinheit."/>
+			<Where Tag="TXT_KEY_UNIT_BAZOOKA_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Fernkampfeinheit des Atomzeitalters."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_BAZOOKA"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

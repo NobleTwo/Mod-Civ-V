@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b58b9d92-e8fc-4bde-81c3-2084bfeeb039" version="1">
+  <Properties>
+    <Name>Civilibra - Units</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_POSITIVE]Balances Units[ENDCOLOR] of the game and makes some more useful</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+[COLOR_POSITIVE]Balances Units[ENDCOLOR] of the game and makes some more useful</Description>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>NQMod</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F2230D2FBD4ADABCC918346AC9A85D17" import="0">Bazooka.xml</File>
+    <File md5="80CEE5B101B5256A3230E50E300C8012" import="0">ChariotArcher.xml</File>
+    <File md5="2A15CB2E114918D50E00B6F73DCBA53D" import="0">CompositeBowman.xml</File>
+    <File md5="12ED1C3C2D4E5645ACB55A263BD7740F" import="0">GatlingGun.xml</File>
+    <File md5="27210EC851908B71D63314FB29F2B6B1" import="0">MachineGun.xml</File>
+    <File md5="A3E36B07E8009515F49E39A62796F0E2" import="0">MountedRanged.xml</File>
+    <File md5="5CD691212F54C8D567E7409BF741486B" import="0">Paradrops.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Bazooka.xml</UpdateDatabase>
+      <UpdateDatabase>ChariotArcher.xml</UpdateDatabase>
+      <UpdateDatabase>CompositeBowman.xml</UpdateDatabase>
+      <UpdateDatabase>GatlingGun.xml</UpdateDatabase>
+      <UpdateDatabase>MachineGun.xml</UpdateDatabase>
+      <UpdateDatabase>MountedRanged.xml</UpdateDatabase>
+      <UpdateDatabase>Paradrops.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,248 @@
+<GameData>
+	<Worlds>
+		<Update>
+			<Set ID="10"/>
+			<Where Type="WORLDSIZE_HUGE"/>	<!-- DefaultPlayers="12"-->
+		</Update>
+		<Update>
+			<Set ID="8"/>
+			<Where Type="WORLDSIZE_LARGE"/> <!-- DefaultPlayers="10"-->
+		</Update>
+		<Update>
+			<Set ID="6"/>
+			<Where Type="WORLDSIZE_STANDARD"/> <!-- DefaultPlayers="8"-->
+		</Update>
+		<Update>
+			<Set ID="4"/>
+			<Where Type="WORLDSIZE_SMALL"/> <!-- DefaultPlayers="6"-->
+		</Update>
+		<Update>
+			<Set ID="2"/>
+			<Where Type="WORLDSIZE_TINY"/> <!-- DefaultPlayers="4"-->
+		</Update>
+		<Row>
+			<ID>1</ID>
+			<Type>WORLDSIZE_VERY_TINY</Type>
+			<Description>TXT_KEY_WORLD_VERY_TINY</Description>
+			<Help>TXT_KEY_WORLD_VERY_TINY_HELP</Help>
+			<DefaultPlayers>3</DefaultPlayers>
+			<DefaultMinorCivs>6</DefaultMinorCivs>
+			<GridWidth>48</GridWidth>
+			<GridHeight>30</GridHeight>
+			<MaxActiveReligions>2</MaxActiveReligions>
+			<FogTilesPerBarbarianCamp>16</FogTilesPerBarbarianCamp>
+			<NumNaturalWonders>2</NumNaturalWonders>
+			<UnitNameModifier>45</UnitNameModifier>
+			<TargetNumCities>4</TargetNumCities>
+			<NumFreeBuildingResources>1</NumFreeBuildingResources>
+			<BuildingClassPrereqModifier>0</BuildingClassPrereqModifier>
+			<MaxConscriptModifier>-38</MaxConscriptModifier>
+			<TerrainGrainChange>-1</TerrainGrainChange>
+			<FeatureGrainChange>-1</FeatureGrainChange>
+			<ResearchPercent>100</ResearchPercent>
+			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
+			<AdvancedStartPointsMod>82</AdvancedStartPointsMod>
+			<EstimatedNumCities>19</EstimatedNumCities>
+			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+		<Row>
+			<ID>3</ID>
+			<Type>WORLDSIZE_QUITE_SMALL</Type>
+			<Description>TXT_KEY_WORLD_QUITE_SMALL</Description>
+			<Help>TXT_KEY_WORLD_QUITE_SMALL_HELP</Help>
+			<DefaultPlayers>5</DefaultPlayers>
+			<DefaultMinorCivs>10</DefaultMinorCivs>
+			<GridWidth>61</GridWidth>
+			<GridHeight>39</GridHeight>
+			<MaxActiveReligions>4</MaxActiveReligions>
+			<FogTilesPerBarbarianCamp>21</FogTilesPerBarbarianCamp>
+			<NumNaturalWonders>3</NumNaturalWonders>
+			<UnitNameModifier>35</UnitNameModifier>
+			<TargetNumCities>5</TargetNumCities>
+			<NumFreeBuildingResources>2</NumFreeBuildingResources>
+			<BuildingClassPrereqModifier>12</BuildingClassPrereqModifier>
+			<MaxConscriptModifier>-12</MaxConscriptModifier>
+			<TerrainGrainChange>-1</TerrainGrainChange>
+			<FeatureGrainChange>-1</FeatureGrainChange>
+			<ResearchPercent>100</ResearchPercent>
+			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
+			<AdvancedStartPointsMod>87</AdvancedStartPointsMod>
+			<EstimatedNumCities>33</EstimatedNumCities>
+			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<ID>5</ID>
+			<Type>WORLDSIZE_MEDIUM</Type>
+			<Description>TXT_KEY_WORLD_MEDIUM</Description>
+			<Help>TXT_KEY_WORLD_MEDIUM_HELP</Help>
+			<DefaultPlayers>7</DefaultPlayers>
+			<DefaultMinorCivs>14</DefaultMinorCivs>
+			<GridWidth>73</GridWidth>
+			<GridHeight>47</GridHeight>
+			<MaxActiveReligions>5</MaxActiveReligions>
+			<FogTilesPerBarbarianCamp>25</FogTilesPerBarbarianCamp>
+			<NumNaturalWonders>4</NumNaturalWonders>
+			<UnitNameModifier>25</UnitNameModifier>
+			<TargetNumCities>5</TargetNumCities>
+			<NumFreeBuildingResources>4</NumFreeBuildingResources>
+			<BuildingClassPrereqModifier>37</BuildingClassPrereqModifier>
+			<MaxConscriptModifier>12</MaxConscriptModifier>
+			<TerrainGrainChange>0</TerrainGrainChange>
+			<FeatureGrainChange>0</FeatureGrainChange>
+			<ResearchPercent>105</ResearchPercent>
+			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
+			<AdvancedStartPointsMod>95</AdvancedStartPointsMod>
+			<EstimatedNumCities>46</EstimatedNumCities>
+			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<ID>7</ID>
+			<Type>WORLDSIZE_NOT_LARGE_YET</Type>
+			<Description>TXT_KEY_WORLD_NOT_LARGE_YET</Description>
+			<Help>TXT_KEY_WORLD_NOT_LARGE_YET_HELP</Help>
+			<DefaultPlayers>9</DefaultPlayers>
+			<DefaultMinorCivs>18</DefaultMinorCivs>
+			<GridWidth>92</GridWidth>
+			<GridHeight>58</GridHeight>
+			<MaxActiveReligions>6</MaxActiveReligions>
+			<FogTilesPerBarbarianCamp>28</FogTilesPerBarbarianCamp>
+			<NumNaturalWonders>5</NumNaturalWonders>
+			<UnitNameModifier>15</UnitNameModifier>
+			<TargetNumCities>5</TargetNumCities>
+			<NumFreeBuildingResources>5</NumFreeBuildingResources>
+			<BuildingClassPrereqModifier>62</BuildingClassPrereqModifier>
+			<MaxConscriptModifier>37</MaxConscriptModifier>
+			<TerrainGrainChange>0</TerrainGrainChange>
+			<FeatureGrainChange>0</FeatureGrainChange>
+			<ResearchPercent>115</ResearchPercent>
+			<NumCitiesUnhappinessPercent>90</NumCitiesUnhappinessPercent>
+			<NumCitiesPolicyCostMod>8.25</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>4.25</NumCitiesTechCostMod>
+			<AdvancedStartPointsMod>105</AdvancedStartPointsMod>
+			<EstimatedNumCities>66</EstimatedNumCities>
+			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<ID>9</ID>
+			<Type>WORLDSIZE_ALMOST_HUGE</Type>
+			<Description>TXT_KEY_WORLD_ALMOST_HUGE</Description>
+			<Help>TXT_KEY_WORLD_ALMOST_HUGE_HELP</Help>
+			<DefaultPlayers>11</DefaultPlayers>
+			<DefaultMinorCivs>22</DefaultMinorCivs>
+			<GridWidth>116</GridWidth>
+			<GridHeight>72</GridHeight>
+			<MaxActiveReligions>7</MaxActiveReligions>
+			<FogTilesPerBarbarianCamp>32</FogTilesPerBarbarianCamp>
+			<NumNaturalWonders>7</NumNaturalWonders>
+			<UnitNameModifier>5</UnitNameModifier>
+			<TargetNumCities>6</TargetNumCities>
+			<NumFreeBuildingResources>6</NumFreeBuildingResources>
+			<BuildingClassPrereqModifier>82</BuildingClassPrereqModifier>
+			<MaxConscriptModifier>62</MaxConscriptModifier>
+			<TerrainGrainChange>1</TerrainGrainChange>
+			<FeatureGrainChange>1</FeatureGrainChange>
+			<ResearchPercent>125</ResearchPercent>
+			<NumCitiesUnhappinessPercent>70</NumCitiesUnhappinessPercent>
+			<NumCitiesPolicyCostMod>6.25</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>3.125</NumCitiesTechCostMod>
+			<AdvancedStartPointsMod>115</AdvancedStartPointsMod>
+			<EstimatedNumCities>106</EstimatedNumCities>
+			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Worlds>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_WORLD_VERY_TINY</Tag>
+			<Text>Very Tiny</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_VERY_TINY_HELP</Tag>
+			<Text>3 players with 6 City States.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_QUITE_SMALL</Tag>
+			<Text>Quite Small</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_QUITE_SMALL_HELP</Tag>
+			<Text>5 players with 10 City States.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_MEDIUM</Tag>
+			<Text>Medium</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_MEDIUM_HELP</Tag>
+			<Text>7 players with 14 City States.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET</Tag>
+			<Text>Not Large Yet</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET_HELP</Tag>
+			<Text>9 players with 18 City States.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_ALMOST_HUGE</Tag>
+			<Text>Almost Huge</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_ALMOST_HUGE_HELP</Tag>
+			<Text>11 players with 22 City States.</Text>/>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row>
+			<Tag>TXT_KEY_WORLD_VERY_TINY</Tag>
+			<Text>Überaus winzig</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_VERY_TINY_HELP</Tag>
+			<Text>3 Spieler 6 Stadtstaaten.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_QUITE_SMALL</Tag>
+			<Text>Ziemlich klein</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_QUITE_SMALL_HELP</Tag>
+			<Text>5 Spieler mit 10 Stadtstaaten.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_MEDIUM</Tag>
+			<Text>Mittelgroß</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_MEDIUM_HELP</Tag>
+			<Text>7 Spieler mit 14 Stadtstaaten.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET</Tag>
+			<Text>Nocht nicht groß</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET_HELP</Tag>
+			<Text>9 Spieler mit 18 Stadtstaaten.</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_ALMOST_HUGE</Tag>
+			<Text>Fast riesig</Text>/>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_WORLD_ALMOST_HUGE_HELP</Tag>
+			<Text>11 Spieler mit 22 Stadtstaaten.</Text>/>
+		</Row>
+	</Language_DE_DE>
+</GameData>

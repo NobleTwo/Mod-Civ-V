@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="03ca6603-865b-4c3d-ae0b-05de5e008cf7" version="1">
+  <Properties>
+    <Name>Civilibra - Terrain (miscellaneous)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_POSITIVE]Enhances[ENDCOLOR] miscellaneous [COLOR_POSITIVE]Terrain[ENDCOLOR] contents</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+[COLOR_POSITIVE]Enhances[ENDCOLOR] different [COLOR_POSITIVE]Terrain[ENDCOLOR] features</Description>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>NQMod, whoward</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A1398F8689AD32BD23EC237F1CB07E9E" import="0">GoodyHut.xml</File>
+    <File md5="DDA9262790A3A37AB81F9783ACAA7184" import="1">PlotIterators.lua</File>
+    <File md5="E43DFB1E7BC460E30E098E9CA8D55796" import="0">SightStartingPlot.lua</File>
+    <File md5="74C6243A7D1F383051BBCC555191BF61" import="0">WetLandsRegion.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>GoodyHut.xml</UpdateDatabase>
+      <UpdateDatabase>WetLandsRegion.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="SightStartingPlot.lua">
+      <Name>SightStartingPlot</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

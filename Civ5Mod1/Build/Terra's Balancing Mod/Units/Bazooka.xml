@@ -1,9 +1,0 @@
-<GameData>
-	<!-- Increases range of Bazookas by 1.-->
-	<Units>
-		<Update>
-			<Set Range="2"/>
-			<Where Class="UNITCLASS_BAZOOKA"/>
-		</Update>
-	</Units>
-</GameData>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fb30e172-cb74-4a4d-9fc1-bfbbfc2e6787" version="1">
+  <Properties>
+    <Name>Civilibra - Alphabetical Civilizations</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Sorts [COLOR_POSITIVE_TEXT]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE_TEXT]alphabetical order[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Sorts [COLOR_POSITIVE]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE]alphabetical order[ENDCOLOR] - by Civilization name and not by leader name.[NEWLINE]
+[COLOR_NEGATIVE]Does not work as usual mods do! Requires starting the game with JdH's CiV MP Mod Manager or executing Multiplayer Mods Workaround[ENDCOLOR]</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="BFE9675B89EAB51431A5D45AFCEFE669" import="1">AdvancedSetup.lua</File>
+    <File md5="A58F1AAAAE22AE3CC47441CA751EC2BB" import="1">GameSetupScreen.lua</File>
+    <File md5="0CD0370171A34D2F5F6092581B50FDE2" import="0">GameSetupUI.xml</File>
+    <File md5="F39894BFBB84CE3E2C4256440DF07E0A" import="1">StagingRoom.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>GameSetupUI.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e86a5c0f-8708-47e5-b34c-b7eebd32ed34" version="1">
+  <Properties>
+    <Name>Civilibra - Religions</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_POSITIVE]Balances Religions[ENDCOLOR], Pantheons and corresponding content</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Balances Religions, Pantheons and corresponding content</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CE62A42ED14138EE344793208F3A4007" import="0">DanceOfTheAurora.lua</File>
+    <File md5="4EB98C512C9A4CB6D78C9CE9A7ECC116" import="0">DanceOfTheAurora.xml</File>
+    <File md5="2E858A55ED9BBFDAEECC9134FC24843D" import="0">GodOfTheSea.xml</File>
+    <File md5="0A8BF972B9DF3860DA630B299EEE72A2" import="0">GreatProphet.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>DanceOfTheAurora.xml</UpdateDatabase>
+      <UpdateDatabase>GodOfTheSea.xml</UpdateDatabase>
+      <UpdateDatabase>GreatProphet.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="DanceOfTheAurora.lua">
+      <Name>DanceOfTheAurora</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

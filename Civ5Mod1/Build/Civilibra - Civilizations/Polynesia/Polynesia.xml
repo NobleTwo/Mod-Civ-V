@@ -1,0 +1,109 @@
+<GameData>
+	<!-- adds the Climb the Mast-Promotion-->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CLIMB_MAST</Type>
+			<Description>TXT_KEY_PROMOTION_CLIMB_MAST</Description>
+			<Help>TXT_KEY_PROMOTION_CLIMB_MAST_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>48</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CLIMB_MAST</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_CLIMB_MAST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_CLIMB_MAST">
+			<Text>Climb the Mast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CLIMB_MAST_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reveals[ENDCOLOR] the terrain in [COLOR_POSITIVE_TEXT]5 tiles range[ENDCOLOR] when embarked.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_CLIMB_MAST">
+			<Text>Auf den Mast klettern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CLIMB_MAST_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Deckt[ENDCOLOR] das Terrain in [COLOR_POSITIVE_TEXT]5 Feldern Reichweite auf[ENDCOLOR] wenn gewassert.</Text>
+		</Row>
+	</Language_DE_DE>
+	
+	<!-- converts the Polynesian Maori Warrior to a scout unit-->
+	<Units>
+		<Update>
+			<Set Class="UNITCLASS_SCOUT" Combat="5" Cost="25" FaithCost="50" RequiresFaithPurchaseEnabled="true" CombatClass="UNITCOMBAT_RECON" DefaultUnitAI="UNITAI_EXPLORE" NoBadGoodies="true" ObsoleteTech="TECH_SCIENTIFIC_THEORY" GoodyHutUpgradeUnitClass="UNITCLASS_ARCHER"/>
+				<Where Type="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+		</Update>
+	</Units>
+	<Unit_AITypes>
+		<Update>
+			<Set UnitAIType="UNITAI_EXPLORE"/>
+			<Where UnitType="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+		</Update>
+	</Unit_AITypes>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ClassUpgrades>
+		<Update>
+			<Set UnitClassType="UNITCLASS_COMPOSITE_BOWMAN"/>
+			<Where UnitType="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+		</Update>
+	</Unit_ClassUpgrades>
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Set UnitClassType="UNITCLASS_SCOUT"/>
+			<Where CivilizationType="CIVILIZATION_POLYNESIA"/>
+		</Update>
+	</Civilization_UnitClassOverrides>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="Maori Scout"/>
+			<Where Tag="TXT_KEY_UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+		</Update>
+		<Update>
+			<Set Text="Ancient Era unit that strikes fear into nearby enemies making them less effective in combat. It is great at scouting the coast when embarked because it reveals terrain in a large range. Only Polynesia may build it. Replaces the Scout."/>
+			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="The Maori Warrior is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. Build plenty of these units early for their promotion stays with them as they are upgraded. Use it also to scout the coast and find spots to settle and place your Moais."/>
+			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Maori Späher"/>
+			<Where Tag="TXT_KEY_UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+		</Update>
+		<Update>
+			<Set Text="Diese Einheit der Antike versetzt Feinde in der Nähe in Angst und Schrecken und macht sie so weniger effektiv im Kampf. Sie ist großartig im Erkunden der Küste, wenn sie gewassert ist, weil sie das Gelände in großer Reichweite aufdeckt. Kann nur von Polynesiern gebaut werden. Ersetzt den Späher."/>
+			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Der Maori-Krieger ähnelt einem Großen General; er erhöht jedoch nicht die Stärke freundlich gesinnter Einheiten in der Nähe, sondern verringert die Stärke naher feindlicher Einheiten. Baut schon zu Beginn viele dieser Einheiten, denn ihre Beförderungen bleiben bei Modernisierungen erhalten. Benutzt ihn auch, um die Küste zu erforschen und Siedlungsplätze und Positionen für Moais zu finden."/>
+			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY"/>
+		</Update>
+	</Language_DE_DE>
+	
+	<!-- makes Moais available with pottery instead of construction -->
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_POTTERY"/>
+			<Where Type="BUILD_MOAI"/>
+		</Update>
+	</Builds>
+</GameData>

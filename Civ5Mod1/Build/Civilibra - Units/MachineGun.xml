@@ -1,0 +1,31 @@
+<GameData>
+	<!-- Increases range of Machine Guns by 1.-->
+	<Units>
+		<Update>
+			<Set Range="2"/>
+			<Where Class="UNITCLASS_MACHINE_GUN"/>
+		</Update>
+	</Units>
+
+	<!-- Adjust text info. -->
+	<Language_en_US>
+		<Update>
+			<Set Text="The Machine Gun is the penultimate non-siege ranged unit. It is more powerful than earlier ranged units. Like the Gatling Gun, it can deal significant damage to other units without being hurt itself. It is vulnerable to melee attack."/>
+			<Where Tag="TXT_KEY_UNIT_MACHINE_GUN_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Late-game ranged Unit."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Das Maschinengewehr ist die fast ultimative Nicht-Belagerungs-Fernkampfeinheit. Sie ist mächtiger als frühere Fernkampfeinheiten. Wie auch das Gatling-Gewehr kann sie anderen Einheiten großen Schaden zufügen. Sie ist für Nahkampfangriffe anfällig."/>
+			<Where Tag="TXT_KEY_UNIT_MACHINE_GUN_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Fernkampfeinheit des Endspiels."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

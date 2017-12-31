@@ -1,0 +1,37 @@
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DIPLO_CANCEL_DOF">
+			<Text>Cancel Friendship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_DOF">
+			<Text>You cannot cancel the Declaration of Friendship because you just signed it. ([COLOR_WARNING_TEXT]{1_Num} turn(s) left.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CANCEL_DOF_TT">
+			<Text>Cancels the Declaration of Friendship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_AFTER_DOF">
+			<Text>You cannot declare war yet because your Declaration fo Friendship just ended. ([COLOR_WARNING_TEXT]{1_Num} turn(s) left.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_DOES_THIS_MEAN_END_DOF">
+			<Text>Do you really want to cancel the Decaration of Friendship? ([COLOR_WARNING_TEXT]Cancels all trades.[ENDCOLOR])</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_DIPLO_CANCEL_DOF">
+			<Text>Freundschaft kündigen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_DOF">
+			<Text>Du kannst die Freundschaftserklärung noch nicht kündigen, weil du sie gerade erst abgeschlossen hast. ([COLOR_WARNING_TEXT]Noch {1_Num} Runde(n).[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CANCEL_DOF_TT">
+			<Text>Kündigt die Freunschaftserklärung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_AFTER_DOF">
+			<Text>Du kannst noch keinen Krieg erklären, weil die Freundschaftserklärung gerade erst geendet hat. ([COLOR_WARNING_TEXT]Noch {1_Num} Runde(n).[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_DOES_THIS_MEAN_END_DOF">
+			<Text>Möchtest du die Freundschaftserklärung wirklich kündigen? ([COLOR_WARNING_TEXT]Hebt alle Handel auf.[ENDCOLOR])</Text>
+		</Row>
+	</Language_DE_DE>
+</GameData>

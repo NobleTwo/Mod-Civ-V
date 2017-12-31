@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2786c3ca-e584-4d58-b0b1-aca8ce12a887" version="1">
+  <Properties>
+    <Name>Civilibra - Popups</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Fixes order in which [COLOR_POSITIVE]Popups[ENDCOLOR] appear</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Fixes order in which [COLOR_POSITIVE]Popups[ENDCOLOR] appear</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A1992C99202679E41BF0B77F6B32DA58" import="1">NaturalWonderPopup.lua</File>
+    <File md5="379EF670C294FC1A444B8FF8A55B983B" import="1">TechAwardPopup.lua</File>
+  </Files>
+</Mod>

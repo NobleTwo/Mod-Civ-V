@@ -1,0 +1,22 @@
+<GameData>
+	<Belief_FeatureYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_DANCE_AURORA</BeliefType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Belief_FeatureYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Set Text="+1 [ICON_PEACE] Faith from Tundra tiles"/>
+			<Where Tag="TXT_KEY_BELIEF_DANCE_AURORA"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="+1 [ICON_PEACE] Glauben von Tundra-Geländefeldern"/>
+			<Where Tag="TXT_KEY_BELIEF_DANCE_AURORA"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

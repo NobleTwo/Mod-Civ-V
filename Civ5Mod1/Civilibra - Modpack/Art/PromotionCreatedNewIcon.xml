@@ -1,0 +1,33 @@
+<GameData>
+	<UnitPromotions>
+		<Update>
+			<Set PortraitIndex="0" IconAtlas="PROMOTION_ATLAS_EXTENDED"/>
+			<Where Type="PROMOTION_CREATED"/>
+		</Update>
+		<Update>
+			<Set PortraitIndex="0" IconAtlas="PROMOTION_ATLAS_EXTENDED"/>
+			<Where Type="PROMOTION_MARKED_FOR_DEATH"/>
+		</Update>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Update>
+			<Set Text=""/>
+			<Where Tag="TXT_KEY_PROMOTION_CREATED"/>
+		</Update>
+		<Update>
+			<Set Text=""/>
+			<Where Tag="TXT_KEY_PROMOTION_CREATED_HELP"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text=""/>
+			<Where Tag="TXT_KEY_PROMOTION_CREATED"/>
+		</Update>
+		<Update>
+			<Set Text=""/>
+			<Where Tag="TXT_KEY_PROMOTION_CREATED_HELP"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

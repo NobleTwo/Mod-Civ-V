@@ -1,0 +1,66 @@
+<GameData>
+	<!-- Samurai now replaces Swordsman instead of Longswordsman -->
+	<Units>
+		<Update>
+			<Set Class="UNITCLASS_SWORDSMAN" ObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING" Combat="16" Cost="75" FaithCost="150" HurryCostModifier="20" GoodyHutUpgradeUnitClass="UNITCLASS_LONGSWORDSMAN" AdvancedStartCost="20" Conscription="1"/>
+				<Where Type="UNIT_JAPANESE_SAMURAI"/>
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Update>
+			<Set UnitClassType="UNITCLASS_LONGSWORDSMAN"/>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+		</Update>
+	</Unit_ClassUpgrades>
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Set UnitClassType="UNITCLASS_SWORDSMAN"/>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+		</Update>
+	</Civilization_UnitClassOverrides>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="Powerful infantry Unit of the Classical era. Only the Japanese may build it. This Unit fights more effectively and helps produce Great Generals more quickly than the Swordsman, which it replaces. Embarked Samurai can build Fishing Boats in one turn without being consumed (which makes them useful even in times of peace)."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_SAMURAI"/>
+		</Update>
+		<Update>
+			<Set Text="The Samurai are the Japanese unique unit, replacing the Swordsman. As powerful as the Swordsman, the Samurai automatically receives the &quot;Shock I&quot; promotion, giving it a bonus when fighting in open terrain. Success in combat with a Samurai has an increased chance of generating Great Generals. Can build fishing boats without being consumed."/>
+			<Where Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI_STRATEGY"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Starke Infanterieeinheit der Klassik. Kann nur von Japan gebaut werden. Diese Einheit kämpft effektiver und hilft besser, Große Generäle zu produzieren, als der Schwertkämpfer, den sie ersetzt. Gewasserte Samurai können Fischerboote innerhalb einer Runde bauen, ohne verbraucht zu werden (was sie selbst in Zeiten des Friedens nützlich macht)."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_SAMURAI"/>
+		</Update>
+		<Update>
+			<Set Text="Der Samurai ist die Spezialeinheit der Japaner und ersetzt den Schwertkämpfer. Beide Einheiten sind etwa gleich stark, doch der Samurai erhält automatisch die &quot;Schock I&quot;-Beförderung, die ihm einen Vorteil beim Kampf auf offenem Gelände bringt. Der Erfolg beim Kampf mit einem Samurai erhöht die Chance auf das Erscheinen von Großen Generälen. Kann Fischerboote bauen, ohne verbraucht zu werden."/>
+			<Where Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI_STRATEGY"/>
+		</Update>
+	</Language_DE_DE>
+	
+	<!-- +2 Culture and +1 PRODUCTION from Atolls -->
+	<Trait_UnimprovedFeatureYieldChanges>
+		<Row>
+			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_UnimprovedFeatureYieldChanges>
+
+	<!-- update of Trait-description -->
+	<Language_en_US>
+		<Update>
+			<Set Text="Units fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production from each Sea Resource and +2 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production from each Atoll."/>
+			<Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Einheiten kämpfen, als wären sie bei voller Stärke, selbst wenn sie beschädigt sind. +1 [ICON_CULTURE] Kultur und +1 [ICON_PRODUCTION] Produktion durch alle Meeresressourcen und +2 [ICON_CULTURE] Kultur und +1 [ICON_PRODUCTION] Produktion durch jedes Atoll."/>
+			<Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

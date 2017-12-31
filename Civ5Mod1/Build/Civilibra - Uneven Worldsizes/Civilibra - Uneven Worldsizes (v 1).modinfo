@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f12113eb-531a-43f5-90f0-12be32505605" version="1">
+  <Properties>
+    <Name>Civilibra - Uneven Worldsizes</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers of players[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers of players[ENDCOLOR]
+[NEWLINE]
+[COLOR_NEGATIVE]Does not work as usual mods do! Requires starting the game with JdH's CiV MP Mod Manager or executing Multiplayer Mods Workaround[ENDCOLOR]</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CA34242225F4DD60F00AD15E09410DEB" import="1">AssignStartingPlots.lua</File>
+    <File md5="27F5674D64621819228A0705068E7EFC" import="1">FeatureGenerator.lua</File>
+    <File md5="35E1A01A1D99A95D0EEBC0CA73C1F37F" import="0">Worlds.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Worlds.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

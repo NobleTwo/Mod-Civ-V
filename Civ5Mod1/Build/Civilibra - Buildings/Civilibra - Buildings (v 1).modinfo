@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e506583d-8c2b-4df7-8420-af34e3ec8d9f" version="1">
+  <Properties>
+    <Name>Civilibra - Buildings</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Makes some [COLOR_POSITIVE]Buildings[ENDCOLOR] more useful</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Makes some [COLOR_POSITIVE]Buildings[ENDCOLOR] more useful</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="AADB6ADF6E6728E65A84038B7CC0560C" import="0">Bomb_Shelter.xml</File>
+    <File md5="AE2A3677D8E6F81AE97CBE130A022F69" import="0">Customs_House.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Bomb_Shelter.xml</UpdateDatabase>
+      <UpdateDatabase>Customs_House.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

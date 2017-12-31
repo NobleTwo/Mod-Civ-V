@@ -1,9 +1,0 @@
-<GameData>
-	<!-- Increases range of Gatling Guns by 1.-->
-	<Units>
-		<Update>
-			<Set Range="2" RangedCombat="25"/>
-			<Where Type="UNIT_GATLINGGUN"/>
-		</Update>
-	</Units>
-</GameData>

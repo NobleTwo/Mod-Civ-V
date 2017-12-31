@@ -1,0 +1,70 @@
+<GameData>
+	<!-- Trait that Natural Wonders are shown is implemented in UI/ResourceIconManager.lua -->
+	<!-- Removes the first and subsequent finder gold for Spain and reduces Natural Wonder Yield modification from 100% to 25%.-->
+	<Traits>
+		<Update>
+			<Set NaturalWonderFirstFinderGold="0" NaturalWonderSubsequentFinderGold="0" NaturalWonderYieldModifier="25"/>
+			<Where Type="TRAIT_SEVEN_CITIES"/>
+		</Update>
+	</Traits>
+
+	<!-- Reduces costs of Conquistadors to usual Knight costs.-->
+	<Units>
+		<Update>
+			<Set Cost="120" FoundAbroad="false" WorkRate="100"/>
+			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
+		</Update>
+	</Units>
+	
+	<!-- Grants Conquistadors the ability to remove Forest, Jungle and Swamp.-->
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_SPANISH_CONQUISTADOR</UnitType>
+			<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPANISH_CONQUISTADOR</UnitType>
+			<BuildType>BUILD_REMOVE_FOREST</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPANISH_CONQUISTADOR</UnitType>
+			<BuildType>BUILD_REMOVE_MARSH</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SPANISH_CONQUISTADOR</UnitType>
+			<UnitAIType>UNITAI_WORKER</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+	<!-- Adjust text infos. -->
+	<Language_en_US>
+		<Update>
+			<Set Text="Gets to know the position of nearby Natural Wonders and receives 25% more [ICON_CULTURE] Culture, [ICON_HAPPINESS_1] Happiness, and tile yields from Natural Wonders."/>
+			<Where Tag="TXT_KEY_TRAIT_SEVEN_CITIES"/>
+		</Update>
+		<Update>
+			<Set Text="Medieval Era unit that specializes in scouting and clearing paths. Only Spain may build it. Replaces the Knight."/>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_CONQUISTADOR_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Knight, it is an exceptional scout on land with extra visibility. It also has the ability to remove Jungle, Forest and Marsh, thus helping your army to attack your neighbors. In the water, the Conquistador has the defensive embarkation promotion that allows it to defend itself against naval units. It also suffers no penalty when attacking cities, unlike the Knight."/>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY"/>		
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Erfährt die Position von nahen Naturwundern und erhält 25% mehr [ICON_CULTURE] Kultur, [ICON_HAPPINESS_1] Zufriedenheit und Geländefelderträge von Naturwundern."/>
+			<Where Tag="TXT_KEY_TRAIT_SEVEN_CITIES"/> 
+		</Update>
+		<Update>
+			<Set Text="Einheit des Mittelalters, die auf Spähen und die Erschließung von Wegen spezialisiert ist. Kann nur von Spanien ausgebildet werden. Ersetzt den Ritter."/>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_CONQUISTADOR_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Der Konquistador ist eine vielseitig einsetzbare Einheit, die sowohl auf dem Land als auch zu Wasser stark ist. Er ersetzt den Ritter, und auf Land ist er ein außergewöhnlicher Späher mit zusätzlicher Sicht. Außerdem verfügt er über die Fähigkeit, Dschungel, Wald und Sumpf zu entfernen und hilft so beim Angreifen von Nachbarn. Zu Wasser verfügt der Konquistador über die Beförderung 'Mit Verteidigung wassern', die es ihm erlaubt, sich selbst gegen Marineeinheiten zu verteidigen. Im Gegensatz zum Ritter erhält er keinen Malus, wenn er Städte angreift."/>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

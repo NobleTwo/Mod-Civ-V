@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5d464573-03fd-42f2-a90e-905943295bbb" version="1">
+  <Properties>
+    <Name>Civilibra - Natural Wonders</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Natural Wonders[ENDCOLOR] in the game</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Natural Wonders[ENDCOLOR] in the game</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A590DD1AE29C1ABE11316D340C18B6FA" import="0">Barringer_Crater.xml</File>
+    <File md5="E82A04F6628D1881B1C8AEACF7F1E844" import="0">El_Dorado.xml</File>
+    <File md5="DC8F185235F64266F952A0952749BC99" import="0">Fountain_Of_Youth.xml</File>
+    <File md5="7EB490870C96A04360C6C1A7300689DB" import="0">Grand_Mesa.xml</File>
+    <File md5="64EB06F28A507C4CA371FF2C1B1B723F" import="0">King_Solomons_Mines.xml</File>
+    <File md5="326A2DEE8AC26D9DD76DBBDC51E0456C" import="0">Lake_Victoria.xml</File>
+    <File md5="350C78B963028FEF6CB29B06DBD65492" import="0">Mt_Fuji.xml</File>
+    <File md5="E8B01074EAFF1B9D7723E6DEE748167C" import="0">Mt_Kailash.xml</File>
+    <File md5="6042408A133DDEC75882FBF26E8330D9" import="0">Mt_Sinai.xml</File>
+    <File md5="0DCFB8C6A3BC9BAE0745D418821653B3" import="0">Old_Faithful.xml</File>
+    <File md5="557426F6AE93AA1868FEC84BCF175A23" import="0">Sri_Pada.xml</File>
+    <File md5="D69B83231FA86F7EE1B50511660DC3A0" import="0">Uluru.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Barringer_Crater.xml</UpdateDatabase>
+      <UpdateDatabase>El_Dorado.xml</UpdateDatabase>
+      <UpdateDatabase>Fountain_Of_Youth.xml</UpdateDatabase>
+      <UpdateDatabase>Grand_Mesa.xml</UpdateDatabase>
+      <UpdateDatabase>King_Solomons_Mines.xml</UpdateDatabase>
+      <UpdateDatabase>Lake_Victoria.xml</UpdateDatabase>
+      <UpdateDatabase>Mt_Fuji.xml</UpdateDatabase>
+      <UpdateDatabase>Mt_Kailash.xml</UpdateDatabase>
+      <UpdateDatabase>Mt_Sinai.xml</UpdateDatabase>
+      <UpdateDatabase>Old_Faithful.xml</UpdateDatabase>
+      <UpdateDatabase>Sri_Pada.xml</UpdateDatabase>
+      <UpdateDatabase>Uluru.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

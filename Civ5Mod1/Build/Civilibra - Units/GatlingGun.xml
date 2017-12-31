@@ -1,0 +1,31 @@
+<GameData>
+	<!-- Increases range of Gatling Guns by 1.-->
+	<Units>
+		<Update>
+			<Set Range="2" RangedCombat="25"/>
+			<Where Type="UNIT_GATLINGGUN"/>
+		</Update>
+	</Units>
+
+	<!-- Adjust text info. -->
+	<Language_en_US>
+		<Update>
+			<Set Text="The Bazooka is the last non-siege ranged unit. It is the most powerful ranged unit and can deal significant damage to other units without being hurt itself. This makes it a great defense unit."/>
+			<Where Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Ranged infantry Unit of the mid-game."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_GATLINGGUN"/>
+		</Update>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Update>
+			<Set Text="Die Gatling-Kanone ist eine Fernkampf-Einheit im mittleren Spiel zur Abwehr von Belagerungen. Sie ist viel wirkungsvoller als frühere Fernkampf-Einheiten wie der Armbrustschütze. Sie kann bei anderen Einheiten beträchtlichen Schaden anrichten, ohne selbst beschädigt zu werden."/>
+			<Where Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Fernkampfeinheit der Spielmitte."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_GATLINGGUN"/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

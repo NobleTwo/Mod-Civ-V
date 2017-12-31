@@ -3,6 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # ModBuddy Solution File, Format Version 11.00
 Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Terra's Balancing Mod", "Civ5Mod1\Terra's Balancing Mod.civ5proj", "{AA429EC5-BC73-4367-B492-5CA1409A7A86}"
 EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Religions", "Civilibra - Religions\Civilibra - Religions.civ5proj", "{C79CD65F-5525-43B7-841E-6D2236CEC987}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Civilizations", "Civilibra - Civilizations\Civilibra - Civilizations.civ5proj", "{AB30D09B-DB38-4C64-B205-EA92FFE5D401}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Tourism", "Civilibra - Tourism\Civilibra - Tourism.civ5proj", "{A497E459-ED4E-45AB-8CA7-EA72965D0099}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Buildings", "Civilibra - Buildings\Civilibra - Buildings.civ5proj", "{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Diplomacy", "Civilibra - Diplomacy\Civilibra - Diplomacy.civ5proj", "{44B18186-9935-419D-9E71-0433976FE873}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Alphabetical Civilizations", "Civilibra - Alphabetical Leaders\Civilibra - Alphabetical Civilizations.civ5proj", "{B1C6C233-6976-43F8-9D6B-24499C0DF957}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Popups", "Civilibra - Popups\Civilibra - Popups.civ5proj", "{BF497B56-ABBF-4922-880A-2836B1764A65}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Technologies", "Civilibra - Technologies\Civilibra - Technologies.civ5proj", "{BF7FA32D-5ACC-46A9-9306-8364DB8389BA}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Natural Wonders", "Civilibra - Natural Wonders\Civilibra - Natural Wonders.civ5proj", "{E6F56C37-F2B6-490E-9361-8C137EC50827}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Terrain (miscellaneous)", "Civilibra - Terrain (miscellaneous)\Civilibra - Terrain (miscellaneous).civ5proj", "{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Uneven Worldsizes", "Civilibra - Uneven Maps\Civilibra - Uneven Worldsizes.civ5proj", "{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Units", "Civilibra - Units\Civilibra - Units.civ5proj", "{0AD45971-C537-402B-B24E-6FD4438D40DA}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Modpack", "Civilibra - Modpack\Civilibra - Modpack.civ5proj", "{9C4646D3-529C-4170-83A2-F9244E986443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|x86 = Default|x86
@@ -16,6 +42,84 @@ Global
 		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Deploy Only|x86.Build.0 = Deploy Only|x86
 		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Package Only|x86.ActiveCfg = Package Only|x86
 		{AA429EC5-BC73-4367-B492-5CA1409A7A86}.Package Only|x86.Build.0 = Package Only|x86
+		{C79CD65F-5525-43B7-841E-6D2236CEC987}.Default|x86.ActiveCfg = Default|x86
+		{C79CD65F-5525-43B7-841E-6D2236CEC987}.Default|x86.Build.0 = Default|x86
+		{C79CD65F-5525-43B7-841E-6D2236CEC987}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{C79CD65F-5525-43B7-841E-6D2236CEC987}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{C79CD65F-5525-43B7-841E-6D2236CEC987}.Package Only|x86.ActiveCfg = Package Only|x86
+		{C79CD65F-5525-43B7-841E-6D2236CEC987}.Package Only|x86.Build.0 = Package Only|x86
+		{AB30D09B-DB38-4C64-B205-EA92FFE5D401}.Default|x86.ActiveCfg = Default|x86
+		{AB30D09B-DB38-4C64-B205-EA92FFE5D401}.Default|x86.Build.0 = Default|x86
+		{AB30D09B-DB38-4C64-B205-EA92FFE5D401}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{AB30D09B-DB38-4C64-B205-EA92FFE5D401}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{AB30D09B-DB38-4C64-B205-EA92FFE5D401}.Package Only|x86.ActiveCfg = Package Only|x86
+		{AB30D09B-DB38-4C64-B205-EA92FFE5D401}.Package Only|x86.Build.0 = Package Only|x86
+		{A497E459-ED4E-45AB-8CA7-EA72965D0099}.Default|x86.ActiveCfg = Default|x86
+		{A497E459-ED4E-45AB-8CA7-EA72965D0099}.Default|x86.Build.0 = Default|x86
+		{A497E459-ED4E-45AB-8CA7-EA72965D0099}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{A497E459-ED4E-45AB-8CA7-EA72965D0099}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{A497E459-ED4E-45AB-8CA7-EA72965D0099}.Package Only|x86.ActiveCfg = Package Only|x86
+		{A497E459-ED4E-45AB-8CA7-EA72965D0099}.Package Only|x86.Build.0 = Package Only|x86
+		{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}.Default|x86.ActiveCfg = Default|x86
+		{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}.Default|x86.Build.0 = Default|x86
+		{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}.Package Only|x86.ActiveCfg = Package Only|x86
+		{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}.Package Only|x86.Build.0 = Package Only|x86
+		{44B18186-9935-419D-9E71-0433976FE873}.Default|x86.ActiveCfg = Default|x86
+		{44B18186-9935-419D-9E71-0433976FE873}.Default|x86.Build.0 = Default|x86
+		{44B18186-9935-419D-9E71-0433976FE873}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{44B18186-9935-419D-9E71-0433976FE873}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{44B18186-9935-419D-9E71-0433976FE873}.Package Only|x86.ActiveCfg = Package Only|x86
+		{44B18186-9935-419D-9E71-0433976FE873}.Package Only|x86.Build.0 = Package Only|x86
+		{B1C6C233-6976-43F8-9D6B-24499C0DF957}.Default|x86.ActiveCfg = Default|x86
+		{B1C6C233-6976-43F8-9D6B-24499C0DF957}.Default|x86.Build.0 = Default|x86
+		{B1C6C233-6976-43F8-9D6B-24499C0DF957}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{B1C6C233-6976-43F8-9D6B-24499C0DF957}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{B1C6C233-6976-43F8-9D6B-24499C0DF957}.Package Only|x86.ActiveCfg = Package Only|x86
+		{B1C6C233-6976-43F8-9D6B-24499C0DF957}.Package Only|x86.Build.0 = Package Only|x86
+		{BF497B56-ABBF-4922-880A-2836B1764A65}.Default|x86.ActiveCfg = Default|x86
+		{BF497B56-ABBF-4922-880A-2836B1764A65}.Default|x86.Build.0 = Default|x86
+		{BF497B56-ABBF-4922-880A-2836B1764A65}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{BF497B56-ABBF-4922-880A-2836B1764A65}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{BF497B56-ABBF-4922-880A-2836B1764A65}.Package Only|x86.ActiveCfg = Package Only|x86
+		{BF497B56-ABBF-4922-880A-2836B1764A65}.Package Only|x86.Build.0 = Package Only|x86
+		{BF7FA32D-5ACC-46A9-9306-8364DB8389BA}.Default|x86.ActiveCfg = Default|x86
+		{BF7FA32D-5ACC-46A9-9306-8364DB8389BA}.Default|x86.Build.0 = Default|x86
+		{BF7FA32D-5ACC-46A9-9306-8364DB8389BA}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{BF7FA32D-5ACC-46A9-9306-8364DB8389BA}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{BF7FA32D-5ACC-46A9-9306-8364DB8389BA}.Package Only|x86.ActiveCfg = Package Only|x86
+		{BF7FA32D-5ACC-46A9-9306-8364DB8389BA}.Package Only|x86.Build.0 = Package Only|x86
+		{E6F56C37-F2B6-490E-9361-8C137EC50827}.Default|x86.ActiveCfg = Default|x86
+		{E6F56C37-F2B6-490E-9361-8C137EC50827}.Default|x86.Build.0 = Default|x86
+		{E6F56C37-F2B6-490E-9361-8C137EC50827}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{E6F56C37-F2B6-490E-9361-8C137EC50827}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{E6F56C37-F2B6-490E-9361-8C137EC50827}.Package Only|x86.ActiveCfg = Package Only|x86
+		{E6F56C37-F2B6-490E-9361-8C137EC50827}.Package Only|x86.Build.0 = Package Only|x86
+		{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}.Default|x86.ActiveCfg = Default|x86
+		{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}.Default|x86.Build.0 = Default|x86
+		{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}.Package Only|x86.ActiveCfg = Package Only|x86
+		{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}.Package Only|x86.Build.0 = Package Only|x86
+		{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}.Default|x86.ActiveCfg = Default|x86
+		{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}.Default|x86.Build.0 = Default|x86
+		{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}.Package Only|x86.ActiveCfg = Package Only|x86
+		{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}.Package Only|x86.Build.0 = Package Only|x86
+		{0AD45971-C537-402B-B24E-6FD4438D40DA}.Default|x86.ActiveCfg = Default|x86
+		{0AD45971-C537-402B-B24E-6FD4438D40DA}.Default|x86.Build.0 = Default|x86
+		{0AD45971-C537-402B-B24E-6FD4438D40DA}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{0AD45971-C537-402B-B24E-6FD4438D40DA}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{0AD45971-C537-402B-B24E-6FD4438D40DA}.Package Only|x86.ActiveCfg = Package Only|x86
+		{0AD45971-C537-402B-B24E-6FD4438D40DA}.Package Only|x86.Build.0 = Package Only|x86
+		{9C4646D3-529C-4170-83A2-F9244E986443}.Default|x86.ActiveCfg = Default|x86
+		{9C4646D3-529C-4170-83A2-F9244E986443}.Default|x86.Build.0 = Default|x86
+		{9C4646D3-529C-4170-83A2-F9244E986443}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{9C4646D3-529C-4170-83A2-F9244E986443}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{9C4646D3-529C-4170-83A2-F9244E986443}.Package Only|x86.ActiveCfg = Package Only|x86
+		{9C4646D3-529C-4170-83A2-F9244E986443}.Package Only|x86.Build.0 = Package Only|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

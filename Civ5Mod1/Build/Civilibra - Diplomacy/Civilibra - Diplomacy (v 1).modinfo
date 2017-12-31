@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="06f8562e-6616-48c4-99fc-73403f251686" version="1">
+  <Properties>
+    <Name>Civilibra - Diplomacy</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Makes some [COLOR_POSITIVE]Diplomacy[ENDCOLOR] features more useful and [NEWCOLOR]balanced[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Makes some [COLOR_POSITIVE]Diplomacy[ENDCOLOR] features more useful and [NEWCOLOR]balanced[ENDCOLOR]</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0CD5160F3EBE890C73E486B1F5053697" import="0">EmbargoCityStates.xml</File>
+    <File md5="CD0561A515F39D563DE69D53061319C3" import="0">Embassy.xml</File>
+    <File md5="C61411286F215174E22E0D098842521C" import="0">OpenBorders.xml</File>
+    <File md5="1BE760B43D5EB2AC33491CD135621E4E" import="0">ResearchAgreements.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>EmbargoCityStates.xml</UpdateDatabase>
+      <UpdateDatabase>Embassy.xml</UpdateDatabase>
+      <UpdateDatabase>OpenBorders.xml</UpdateDatabase>
+      <UpdateDatabase>ResearchAgreements.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

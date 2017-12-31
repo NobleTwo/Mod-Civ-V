@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e233bb37-6b14-4463-a7dc-0df26cbb6a1b" version="1">
+  <Properties>
+    <Name>Civilibra - Tourism</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Slightly [COLOR_POSITIVE]enhances[ENDCOLOR] some[COLOR_POSITIVE]Tourism[ENDCOLOR] related content</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Slightly [COLOR_POSITIVE]enhances[ENDCOLOR] some[COLOR_POSITIVE]Tourism[ENDCOLOR] related content</Description>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>NQMOD</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0DF3793254BE7C4C73110DDABF286EBF" import="0">ThemingBonusChanges.xml</File>
+    <File md5="14E908CC0C40FA9E7481A45912089D56" import="0">WonderTourism.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ThemingBonusChanges.xml</UpdateDatabase>
+      <UpdateDatabase>WonderTourism.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6f43fd2b-912a-4f94-96a7-75d865808da7" version="1">
+  <Properties>
+    <Name>Civilibra - Civilizations</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_POSITIVE]Balances[ENDCOLOR] most [COLOR_POSITIVE]Civilizations[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Balances most Civilizations</Description>
+    <Authors>Terra</Authors>
+    <SpecialThanks>whoward69</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0CD03112323DD52006FB18770C4F75C7" import="0">Arabia/Arabia.xml</File>
+    <File md5="346E891988FC0DD585F1C7EC804F65CC" import="0">Babylon/Babylon.xml</File>
+    <File md5="088CD79DC003EDB5E4D0539707372A49" import="0">Carthage/Carthage.lua</File>
+    <File md5="76BAA1D198D0CF3159CDFE560988584B" import="0">Carthage/Carthage.xml</File>
+    <File md5="89D68131F93A5E4DACEA64DC51703C1C" import="0">England/England.xml</File>
+    <File md5="CEC560DFAD0D3BF9B8BA1738BBDABA2F" import="0">France/France.xml</File>
+    <File md5="B6C5B29647482084C3D18DC11381A690" import="0">Germany/Germany.xml</File>
+    <File md5="BA28799D3AB7722507C423977343F250" import="0">Iroquois/Iroquois.xml</File>
+    <File md5="4AF3FAF49902F515E26A9D284FFC6BFA" import="0">Japan/Japan.lua</File>
+    <File md5="671C1A18B47851D29E9F108D8729E0BF" import="0">Japan/Japan.xml</File>
+    <File md5="9652AD8B4D200419734E7BEFD5030AE4" import="0">Korea/Korea.xml</File>
+    <File md5="DEA8D5B4C19839FDB919BE306187EF2A" import="0">Maya/Maya.xml</File>
+    <File md5="58EED4BE21321B4DEF9BCC788887114E" import="0">Netherlands/Netherlands.xml</File>
+    <File md5="BF406C14E13F560090F4D92C82E79D32" import="0">Poland/Poland.xml</File>
+    <File md5="61D6AA274B7FD8D2C7450B0C0875FB8A" import="0">Polynesia/Polynesia.lua</File>
+    <File md5="81E16ED4649D1041D13B041C9B976AF0" import="0">Polynesia/Polynesia.xml</File>
+    <File md5="2910E4F66180C85FD17434A7909CD096" import="1">SpainAndUI/GenericWorldAnchor.lua</File>
+    <File md5="D40F3D12D0D4B0B83E6C31ED6CAAE884" import="1">SpainAndUI/ResourceIconManager.lua</File>
+    <File md5="56050BC2253238A818CF200161A1B9B5" import="0">SpainAndUI/Spain.xml</File>
+    <File md5="BEB2956263E1CCA5CF3A72320A43FBC7" import="0">Venice/Venice.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Arabia/Arabia.xml</UpdateDatabase>
+      <UpdateDatabase>Babylon/Babylon.xml</UpdateDatabase>
+      <UpdateDatabase>Carthage/Carthage.xml</UpdateDatabase>
+      <UpdateDatabase>England/England.xml</UpdateDatabase>
+      <UpdateDatabase>France/France.xml</UpdateDatabase>
+      <UpdateDatabase>Germany/Germany.xml</UpdateDatabase>
+      <UpdateDatabase>Iroquois/Iroquois.xml</UpdateDatabase>
+      <UpdateDatabase>Japan/Japan.xml</UpdateDatabase>
+      <UpdateDatabase>Korea/Korea.xml</UpdateDatabase>
+      <UpdateDatabase>Maya/Maya.xml</UpdateDatabase>
+      <UpdateDatabase>Netherlands/Netherlands.xml</UpdateDatabase>
+      <UpdateDatabase>Poland/Poland.xml</UpdateDatabase>
+      <UpdateDatabase>Polynesia/Polynesia.xml</UpdateDatabase>
+      <UpdateDatabase>SpainAndUI/Spain.xml</UpdateDatabase>
+      <UpdateDatabase>Venice/Venice.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Carthage/Carthage.lua">
+      <Name>Carthage</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Japan/Japan.lua">
+      <Name>Japan</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Polynesia/Polynesia.lua">
+      <Name>Polynesia</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
