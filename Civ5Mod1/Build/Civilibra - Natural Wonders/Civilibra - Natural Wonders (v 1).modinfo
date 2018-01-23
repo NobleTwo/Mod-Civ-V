@@ -3,10 +3,10 @@
   <Properties>
     <Name>Civilibra - Natural Wonders</Name>
     <Stability>Alpha</Stability>
-    <Teaser>[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Natural Wonders[ENDCOLOR] in the game</Teaser>
+    <Teaser>[COLOR_POSITIVE_TEXT]Balances[ENDCOLOR] the [COLOR_POSITIVE_TEXT]Natural Wonders[ENDCOLOR] in the game</Teaser>
     <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Natural Wonders[ENDCOLOR] in the game</Description>
+Balances the Natural Wonders in the game</Description>
     <Authors>_Terra_</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>

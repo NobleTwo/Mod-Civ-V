@@ -48,7 +48,7 @@ function OnPopup( popupInfo )
 	--next line added by TBM
   	UIManager:DequeuePopup(ContextPtr:LookUpControl("/InGame/TechAwardPopup"))
 
-	UIManager:QueuePopup( ContextPtr, PopupPriority.TechAward );
+	UIManager:QueuePopup( ContextPtr, PopupPriority.TechAwardPopup );
 end
 Events.SerialEventGameMessagePopup.Add( OnPopup );
 

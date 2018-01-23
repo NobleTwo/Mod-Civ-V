@@ -4,11 +4,12 @@
     <Name>Civilibra - Alphabetical Civilizations</Name>
     <Stability>Alpha</Stability>
     <Teaser>Sorts [COLOR_POSITIVE_TEXT]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE_TEXT]alphabetical order[ENDCOLOR]</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-Sorts [COLOR_POSITIVE]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE]alphabetical order[ENDCOLOR] - by Civilization name and not by leader name.[NEWLINE]
-[COLOR_NEGATIVE]Does not work as usual mods do! Requires starting the game with JdH's CiV MP Mod Manager or executing Multiplayer Mods Workaround[ENDCOLOR]</Description>
+Sorts [COLOR_POSITIVE_TEXT]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE_TEXT]alphabetical order[ENDCOLOR] - by Civilization name and not by Leader name.[NEWLINE]
+The changes work directly for Advanced Setup. For the usual GameSetup, you have to go to "Singe Player-&gt;Custom Game".</Description>
     <Authors>_Terra_</Authors>
+    <SpecialThanks>donquiche for the Ingame Editor</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
@@ -25,8 +26,9 @@ Sorts [COLOR_POSITIVE]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE]al
   <Blocks />
   <Files>
     <File md5="BFE9675B89EAB51431A5D45AFCEFE669" import="1">AdvancedSetup.lua</File>
-    <File md5="A58F1AAAAE22AE3CC47441CA751EC2BB" import="1">GameSetupScreen.lua</File>
+    <File md5="6CED9FFE7394FC2E1264000060413DF4" import="1">GameSetupScreen.lua</File>
     <File md5="0CD0370171A34D2F5F6092581B50FDE2" import="0">GameSetupUI.xml</File>
+    <File md5="176409A2307C526B84E753E50768223E" import="1">SelectCivilization.lua</File>
     <File md5="F39894BFBB84CE3E2C4256440DF07E0A" import="1">StagingRoom.lua</File>
   </Files>
   <Actions>
@@ -34,4 +36,11 @@ Sorts [COLOR_POSITIVE]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE]al
       <UpdateDatabase>GameSetupUI.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
+  <EntryPoints>
+    <EntryPoint type="Custom" file="GameSetupScreen.lua">
+      <Name>GameSetup</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
 </Mod>

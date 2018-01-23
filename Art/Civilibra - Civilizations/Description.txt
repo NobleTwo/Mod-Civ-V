@@ -1,0 +1,83 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Aims at increasing the fairness of the game by balancing the Civilizations and decreasing the impact of luck in the game.
+
+[h1]Detailed Changes:[/h1]
+[list]
+   [*] [b]Arabia[/b]
+      [list]
+         [*] Changes: Ranged Attack of Camel Archers reduced from 21 to 19.
+         [*] Motivation: Camel Archers are an insanely good Unit. Reducing their ranged attack should let other Civilizations be sightly less inferior.
+      [/list]
+   [*] [b]Babylon[/b]
+      [list]
+         [*] Changes: Set Technology required for free Great Scientist from "Writing" to "Philosphy".
+         [*] Motivation: Babylon is one of the best Civilizations in tha game regarding Science. Setting the required Technology for the free Great Scientiest to one that is available later should decrease its impact on the game and therefore nerf Babylon a tiny bit.
+      [/list]
+   [*] [b]Carthage[/b]
+      [list]
+         [*] Changes: Earn a (non-free) Great General upon researching Horseback Riding, therefore units are able to cross mountains (about) as soon as African Forest Elephants can be trained.
+         [*] Motivation: Carthage has a very interesting but unreliable UA: Crossing mountains for a war is intriguing but in the unmodded game, one had to be in war to earn your first Great General and unlock this ability. With this mod, one now has the opportunity to rush for it and use it from the first turn of war.
+      [/list]
+   [*] [b]England[/b]
+      [list]
+         [*] Changes: Ship of the Line now has attack of "27" instead of "30" and ranged attack of "31" instead of "35".
+         [*] Motivation: England with its Ship of the Line dominates all coasts in the unmodded game despite having another extremely good UU in the Longbowman. Thus, a slight nerf to attack and ranged attack of Ships of the Line helps reestablish the balance.
+      [/list]
+   [*] [b]France[/b]
+      [list]
+         [*] Changes: Required Technology for building "Chateaus" set from "Chivalry" to "Guilds".
+         [*] Motivation: The Chateau is a neat Improvement but quite useless as it is available too late. This is solved by setting the required Technology to one that is available earlier.
+      [/list]
+   [*] [b]Germany[/b]
+      [list]
+         [*] Changes: Increased convertion rate to 100% (up from 67%).
+         [*] Motivation: This makes the ability more reliable.
+      [/list]
+   [*] [b]Iroquois[/b]
+      [list]
+         [*] Changes: Longhouse now grants a reduced Workshop-bonus of 5% on Production. Units don't use Woods as roads anymore but get the 'Woodsman' promotion.
+         [*] Motivation: In most cases, the Longhouse was actually worse than a Workshop. Giving it half the Workshop-bonus of 10% Production closes the gap in the worst cases and keeps it from getting to powerful if there is a lot of forest around. The UA of the Iroquois - using woods as roads - was a bit buggy and is therefore replaced by a more reliable version: The 'Woodsman' promotion.
+      [/list]
+   [*] [b]Japan[/b]
+      [list]
+         [*] Changes: Now gains +1 Culture from Sea Resources instead of Fishing Boats. Gains an additional +1 Production from Sea Resources and Atolls. Samurai now replace Swordsman instead of Longswordsman (with adjusted stats).
+         [*] Motivation: The bonus from Fishing Boats is a bit weak and thererfore increased by +1 Production. In Addition, it's usually received late. Thus, it is now granted for Sea Ressources instead of Improvements. The Samurai is a mediocre Unit but it's ability to build fishing boats comes only when most Sea Ressources are usually improved. That's why it now replaces the Swordsman instead of the Longswordsman.
+      [/list]
+   [*] [b]Korea[/b]
+      [list]
+         [*] Changes: Set gained science per Specialist from "2" to "1".
+         [*] Motivation: Korea was just too good in making science. Therefore, it's UA is slightly nerfed.
+      [/list]
+   [*] [b]Maya[/b]
+      [list]
+         [*] Changes: Science yield of the Pyramid reduced from "2" to "1".
+         [*] Motivation: The Maya are too good at generating science due to two science unqiues: The Maya Calendar and the Pyramid. Reducing the science yield of the pyramid makes it more balanced while it stays great because of its faith yield.
+      [/list]
+   [*] [b]Poland[/b]
+      [list]
+         [*] Changes: Social Policy costs increased by 10%.
+         [*] Motivation: Poland's UA was just too big of an advantage. Increasing the Social Policy costs by 10% ensures that they don't get a whole Social Policy tree for free but only about half one. (Note: Social Policy costs are rounded to multiples of 5.)
+      [/list]
+   [*] [b]Polynesia[/b]
+      [list]
+         [*] Changes: Moais are now available with the technology "Pottery" instead of "Construction". Maori warriors have been converted into scouts (with adjusted cost and combat strength) and gain the additional promotion "Climb the Mast" allowing them to reveal terrain in 5 tiles range when embarked.
+         [*] Motivation: Moai are an interesting but usually weak Improvement by themselves. Making them available earlier and allowing Polynesia to find coastal spots to settle easier, improves their performance. It also helps to make the Maori Warriors (now Scouts) more useful.
+      [/list]
+   [*] [b]Spain[/b]
+      [list]
+         [*] Changes: Natural wonders first (and subsequent) finder gold set from "500" ("100") to "0". The yield modifier from Natural Wonders is decreased from 100% to 25%. Gets to know the positions of nearby Natural Wonders. Cost of Conquistador set from "135" to "120"; Conquistador cannot found cities but remove jungle/forest/swamp (this has no animation, though).
+         [*] Motivation: Spain had an really unreliable UA: In some games it would be winning by itself, in some others it would be completely useless. That's why Spain now gets to know the positions of nerby Natural Wonders so it's more reliable but get's only a reduced increased yield and no finder gold anymore (which was way too powerful anyway). The ability of the Conquistador was quite useless and the Conquistador itself overpriced. Therefore, Conquistadors can now remove forest, jungle and marsh which gives them interesting strategic options and have their costs reduced the normal Knight's cost.
+      [/list]
+   [*] [b]Venice[/b]
+      [list]
+         [*] Changes: Annexing and gaining settlers now allowed but no more purchases in puppeted city states possible. Merchant of Venice can no longer buy city states. Number of trade routes-modifier set from "100" to "34" (so you now get an addditional trade route every three trade routes and not for each one). Free Merchant of Venice appears after researching "Compass" instead of "Optics".
+         [*] Motivation: Due to its UA, Venice was completely unplayable in unmodded multiplayer games. Therefore, it is now allowed to build settlers and cities as every other Civilization and it's boni of buying and purchasing city states is removed. The trade route modifier - being too powerful for a Civilization without a handicap like Venice had - is removed to a acceptable value of 1/3. The free Merchant of Venice now appears earlier to make it more helpful. Still, the mod [url=]Separate Great People Counters[/url] is strongly recommended to make Great Merchants more useful in general.
+      [/list]
+[/list]
+
+-----------
+
+Part of this mod is also a fraction of the mod [url=]UI - Small Ressource Icons[/url] by whoward69. I really liked the part of the persisten Natural Wonder icons in there but unfortunately these mods [ausschließen] each other since they [überarbeiten] the same files. That's why I included the persistent icons into this mod. All credits for these go to whoward69, though.

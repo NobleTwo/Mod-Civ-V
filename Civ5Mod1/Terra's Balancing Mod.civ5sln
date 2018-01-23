@@ -9,7 +9,7 @@ Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Civilizations",
 EndProject
 Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Tourism", "Civilibra - Tourism\Civilibra - Tourism.civ5proj", "{A497E459-ED4E-45AB-8CA7-EA72965D0099}"
 EndProject
-Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Buildings", "Civilibra - Buildings\Civilibra - Buildings.civ5proj", "{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}"
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Buildings and Improvements", "Civilibra - Buildings\Civilibra - Buildings and Improvements.civ5proj", "{EA23AA19-CEF0-43C8-BB60-05E768EC58EF}"
 EndProject
 Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Diplomacy", "Civilibra - Diplomacy\Civilibra - Diplomacy.civ5proj", "{44B18186-9935-419D-9E71-0433976FE873}"
 EndProject
@@ -21,13 +21,15 @@ Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Technologies", 
 EndProject
 Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Natural Wonders", "Civilibra - Natural Wonders\Civilibra - Natural Wonders.civ5proj", "{E6F56C37-F2B6-490E-9361-8C137EC50827}"
 EndProject
-Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Terrain (miscellaneous)", "Civilibra - Terrain (miscellaneous)\Civilibra - Terrain (miscellaneous).civ5proj", "{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}"
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Terrain", "Civilibra - Terrain (miscellaneous)\Civilibra - Terrain.civ5proj", "{0B23D0E9-94F4-4A6D-A31D-38070CDEB8C1}"
 EndProject
 Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Uneven Worldsizes", "Civilibra - Uneven Maps\Civilibra - Uneven Worldsizes.civ5proj", "{3372898C-0D5A-4EEC-AEDA-1F4D4BB0B94E}"
 EndProject
 Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Units", "Civilibra - Units\Civilibra - Units.civ5proj", "{0AD45971-C537-402B-B24E-6FD4438D40DA}"
 EndProject
-Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Modpack", "Civilibra - Modpack\Civilibra - Modpack.civ5proj", "{9C4646D3-529C-4170-83A2-F9244E986443}"
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Separate Great People Counters - Hidden Promotion Icons", "Civilibra - Modpack\Civilibra - Separate Great People Counters - Hidden Promotion Icons.civ5proj", "{9C4646D3-529C-4170-83A2-F9244E986443}"
+EndProject
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Civilibra - Multiplayer Mod Workaround", "Civilibra - Multiplayer Mod Workaround\Civilibra - Multiplayer Mod Workaround.civ5proj", "{3C489535-58F0-4004-8029-902F14EDAFBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -120,6 +122,12 @@ Global
 		{9C4646D3-529C-4170-83A2-F9244E986443}.Deploy Only|x86.Build.0 = Deploy Only|x86
 		{9C4646D3-529C-4170-83A2-F9244E986443}.Package Only|x86.ActiveCfg = Package Only|x86
 		{9C4646D3-529C-4170-83A2-F9244E986443}.Package Only|x86.Build.0 = Package Only|x86
+		{3C489535-58F0-4004-8029-902F14EDAFBA}.Default|x86.ActiveCfg = Default|x86
+		{3C489535-58F0-4004-8029-902F14EDAFBA}.Default|x86.Build.0 = Default|x86
+		{3C489535-58F0-4004-8029-902F14EDAFBA}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{3C489535-58F0-4004-8029-902F14EDAFBA}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{3C489535-58F0-4004-8029-902F14EDAFBA}.Package Only|x86.ActiveCfg = Package Only|x86
+		{3C489535-58F0-4004-8029-902F14EDAFBA}.Package Only|x86.Build.0 = Package Only|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

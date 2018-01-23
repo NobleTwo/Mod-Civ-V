@@ -7,16 +7,15 @@
     <Guid>f12113eb-531a-43f5-90f0-12be32505605</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
-    <Teaser>Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers of players[ENDCOLOR]</Teaser>
+    <Teaser>Contains [COLOR_POSITIVE_TEXT]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE_TEXT]uneven numbers of players[ENDCOLOR]</Teaser>
     <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers of players[ENDCOLOR]
-[NEWLINE]
-[COLOR_NEGATIVE]Does not work as usual mods do! Requires starting the game with JdH's CiV MP Mod Manager or executing Multiplayer Mods Workaround[ENDCOLOR]</Description>
+Contains Worldsizes for uneven numbers of players.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]Does not work as usual mods do! Requires starting the game with JdH's CiV MP Mod Manager or executing Multiplayer Mods Workaround.[ENDCOLOR]</Description>
     <Authors>_Terra_</Authors>
     <SpecialThanks>
     </SpecialThanks>
-    <AffectsSavedGames>true</AffectsSavedGames>
+    <AffectsSavedGames>false</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -26,12 +25,19 @@ Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers
     <RootNamespace>Civilibra - Uneven Maps</RootNamespace>
     <ModReferences />
     <ModActions>
-      <Action xmlns="">
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>WorldsizeIcons.xml</FileName>
+      </Action>
+      <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Worlds.xml</FileName>
       </Action>
     </ModActions>
+    <ModContent>
+    </ModContent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -45,6 +51,18 @@ Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Art\WorldsizeAtlasExtended128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\WorldsizeAtlasExtended32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\WorldsizeAtlasExtended64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="AssignStartingPlots.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -53,10 +71,17 @@ Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="WorldsizeIcons.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Worlds.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Art" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
 </Project>

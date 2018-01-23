@@ -1,0 +1,11 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Enhances miscellaneous Terrain content.
+
+[h1]Changes:[/h1]
+[list]
+   [*] At the beginning of a game, tiles are now revealed in a distance of 3. This should make it easier to find the optimal spot for the first city.
+   [*] Barb Camp Ruins removed but Map Ruins now reveal all terrain and barbarian camps within 5 tiles.
+[/list]

@@ -3,10 +3,9 @@
   <Properties>
     <Name>Civilibra - Diplomacy</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Makes some [COLOR_POSITIVE]Diplomacy[ENDCOLOR] features more useful and [NEWCOLOR]balanced[ENDCOLOR]</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
-[NEWLINE]
-Makes some [COLOR_POSITIVE]Diplomacy[ENDCOLOR] features more useful and [NEWCOLOR]balanced[ENDCOLOR]</Description>
+    <Teaser>Makes [COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] more [COLOR_POSITIVE_TEXT]fair[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR][NEWLINE]
+Makes Diplomacy more fair</Description>
     <Authors>_Terra_</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
@@ -27,7 +26,7 @@ Makes some [COLOR_POSITIVE]Diplomacy[ENDCOLOR] features more useful and [NEWCOLO
     <File md5="0CD5160F3EBE890C73E486B1F5053697" import="0">EmbargoCityStates.xml</File>
     <File md5="CD0561A515F39D563DE69D53061319C3" import="0">Embassy.xml</File>
     <File md5="C61411286F215174E22E0D098842521C" import="0">OpenBorders.xml</File>
-    <File md5="1BE760B43D5EB2AC33491CD135621E4E" import="0">ResearchAgreements.xml</File>
+    <File md5="E0B14183BD76D93BA634AA22192BC900" import="0">ResearchAgreements.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

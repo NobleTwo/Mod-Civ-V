@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a6fff49e-8990-426d-8110-716d5227118f" version="1">
+  <Properties>
+    <Name>Civilibra - Multiplayer Mod Workaround</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Civilibra - Multiplayer Mod Workaround</Teaser>
+    <Description>Civilibra - Multiplayer Mod Workaround</Description>
+    <Authors>_Terra_</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="757F6B9C014D290EDF3161AB2B4E7D59" import="1">JoiningRoom.lua</File>
+    <File md5="BA9C59E828B14C59C084EA3A8876D627" import="1">LoadMenu.lua</File>
+    <File md5="C8AD3A3691798D4B8BFDE89BDC9FE87E" import="1">Lobby.lua</File>
+    <File md5="FA8B2DD3DDF0DF54014ADF8CD7D98519" import="0">MainMenu.lua</File>
+    <File md5="B7273C386F83801725D00FD08A0A7761" import="0">ModsMultiplayer.lua</File>
+    <File md5="17B2C7D8DA8BA4E5CB84C25F568C3482" import="1">MPGameSetupScreen.lua</File>
+    <File md5="51E39401880DBC6D3203360681ACC585" import="1">MultiplayerSelect.lua</File>
+    <File md5="DD1079E9C07EDF872D0ABEB83453E813" import="1">StagingRoom.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="Custom" file="ModsMultiplayer.lua">
+      <Name>Multiplayer</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="Custom" file="StagingRoom.lua">
+      <Name>StagingRoom</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,11 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Balances all Natural Wonders.
+
+[h1]Detailed Changes:[/h1]
+[list]
+   [*] Yields adjusted (s. image) so no Natural Wonder is totally useless but neither one is a complete game winner.
+   [*] Removed FirstFinderGold of El Dorado so luck is less important in the game.
+[/list]

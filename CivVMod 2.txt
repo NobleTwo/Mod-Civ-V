@@ -1,10 +1,17 @@
+Civilibra - Diplomacy:
 - Waffenstillstand nach Declaration of Friendship, no CityStateAlly change when Declaration of Friendship -> check dll
 - blackmail city state for vote
 
-- MODPACK?!
-- Textfarbe Chat (DiploCorner) -> ColorAtlas.xml, insert by hand
+Civilibra - Civilizations:
+- Netherlands -> check Hellblazer's mapscript
+- Promotion bug? -> Google, is also Separate Great People Counters
 
-- maps for odd numbers of players -> simply Worldsize?
+Civilibra - Popups:
+- not working -> find other mod fixing this ("TBM"?)
+
+
+
+- Textfarbe Chat (DiploCorner) -> ColorAtlas.xml, insert by hand
 
 maybe
 - Culture From Shrines

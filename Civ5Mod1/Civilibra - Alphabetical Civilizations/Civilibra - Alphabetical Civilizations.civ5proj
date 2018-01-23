@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{b1c6c233-6976-43f8-9d6b-24499c0df957}</ProjectGuid>
+    <Name>Civilibra - Alphabetical Civilizations</Name>
+    <Guid>fb30e172-cb74-4a4d-9fc1-bfbbfc2e6787</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Alpha</Stability>
+    <Teaser>Sorts [COLOR_POSITIVE_TEXT]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE_TEXT]alphabetical order[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+[NEWLINE]
+Sorts [COLOR_POSITIVE_TEXT]Civilizations[ENDCOLOR] in GameSetup in [COLOR_POSITIVE_TEXT]alphabetical order[ENDCOLOR] - by Civilization name and not by leader name.[NEWLINE]
+The changes work directly for Advanced Setup. For the usual GameSetup, you have to go to "Singeplayer-&gt;Custom Game".</Description>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Civilibra - Alphabetical Leaders</AssemblyName>
+    <RootNamespace>Civilibra - Alphabetical Leaders</RootNamespace>
+    <ModReferences />
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>GameSetupUI.xml</FileName>
+      </Action>
+    </ModActions>
+    <ModContent>
+      <Content>
+        <Type>Custom</Type>
+        <Name>GameSetup</Name>
+        <Description />
+        <FileName>GameSetupScreen.lua</FileName>
+      </Content>
+    </ModContent>
+    <HideSetupGame>false</HideSetupGame>
+    <ReloadLandmarkSystem>false</ReloadLandmarkSystem>
+    <ReloadUnitSystem>false</ReloadUnitSystem>
+    <ReloadStrategicViewSystem>false</ReloadStrategicViewSystem>
+    <ReloadAudioSystem>false</ReloadAudioSystem>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="AdvancedSetup.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="GameSetupScreen.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="GameSetupUI.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SelectCivilization.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="StagingRoom.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

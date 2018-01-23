@@ -1,0 +1,10 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+[b]Does not work as usual mods do! Requires starting the game with [url=]JdH's CiV MP Mod Manager[/url] or executing [url=]Multiplayer Mods Workaround[/url]![/b]
+
+-----------
+
+Contains Worldsizes for uneven numbers of players: In the unmodded game, only map sizes for even numbers of players were available. It was possible to change the number of players (e.g. pick 5 players on a "Small" map) but the actual map size and player positions were not adjusted. While this is not much of a problem in singleplayer games, it makes an unfair map or bot in multiplayer necessary.
+This mod prevents exactly this by adding map sizes for 3, 5, 7, 9 and 11 players and adjusting all necessary values accordingly.

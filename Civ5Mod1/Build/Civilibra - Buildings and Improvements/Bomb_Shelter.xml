@@ -1,0 +1,16 @@
+<GameData>
+	<!-- Set required Technology for Bomb Shelter to Nuclear Fission so it's available as soon as Atomic Bombs.-->
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_NUCLEAR_FISSION"/>
+			<Where Type="BUILDING_BOMB_SHELTER"/>
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Bazooka[ENDCOLOR], the most powerful ranged Unit and [COLOR_POSITIVE_TEXT]Atomic Bombs[ENDCOLOR], the first nuclear weapon in the game (note: you must first have completed the Manhattan Project and have [ICON_RES_URANIUM] Uranium available). Also allows you to build the [COLOR_POSITIVE_TEXT]Nuclear Plant[ENDCOLOR], a building which requires [ICON_RES_URANIUM] Uranium and increases the [ICON_PRODUCTION] Production of a City, as well as the construction of the [COLOR_POSITIVE_TEXT]Bomb Shelter[ENDCOLOR], which significantly reduces population loss from a nuclear attack.."/>
+			<Where Tag="TXT_KEY_TECH_NUCLEAR_FISSION_HELP"/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,9 @@
+[h1]Special Thanks[/h1]
+[list]
+   [*] whoward69 for his [url=]PlotIterator[/url]
+   [*] The developpers of [url=]NQMOD[/url] for idea of fusioning Barb Camp and Map Ruins.
+   [*] donquiche for his [url=]Ingame Editor[/url] and thus the opportunity to check if mod features are working.
+   [*] kael for his [url=]Modder's Guide[/url].
+   [*] Klein One for discussing modding ideas.
+   [*] Wuslie for tolerating my babbling about modding Civ 5.
+[/list]

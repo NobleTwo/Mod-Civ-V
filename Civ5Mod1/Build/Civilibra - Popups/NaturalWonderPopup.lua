@@ -61,8 +61,9 @@ function OnPopup( popupInfo )
 	Controls.DescriptionLabel:SetText(yieldString);	
 
 	--next line added by TBM
-  	UIManager:DequeuePopup(ContextPtr:LookUpControl("/InGame/NaturalWonderPopup"))
+  	--UIManager:DequeuePopup(ContextPtr:LookUpControl("/InGame/NaturalWonderPopup"))
 
+	print("NaturalWonder")
 	UIManager:QueuePopup( ContextPtr, PopupPriority.NaturalWonderPopup );
 end
 Events.SerialEventGameMessagePopup.Add( OnPopup );

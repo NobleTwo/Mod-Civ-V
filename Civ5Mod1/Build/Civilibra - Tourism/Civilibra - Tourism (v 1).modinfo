@@ -3,10 +3,10 @@
   <Properties>
     <Name>Civilibra - Tourism</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Slightly [COLOR_POSITIVE]enhances[ENDCOLOR] some[COLOR_POSITIVE]Tourism[ENDCOLOR] related content</Teaser>
+    <Teaser>Slightly [COLOR_POSITIVE_TEXT]enhances[ENDCOLOR] some[COLOR_POSITIVE_TEXT]Tourism[ENDCOLOR] related content</Teaser>
     <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-Slightly [COLOR_POSITIVE]enhances[ENDCOLOR] some[COLOR_POSITIVE]Tourism[ENDCOLOR] related content</Description>
+Slightly enhances some Tourism related content.</Description>
     <Authors>_Terra_</Authors>
     <SpecialThanks>NQMOD</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>

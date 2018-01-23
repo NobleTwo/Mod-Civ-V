@@ -3,16 +3,14 @@
   <Properties>
     <Name>Civilibra - Uneven Worldsizes</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers of players[ENDCOLOR]</Teaser>
+    <Teaser>Contains [COLOR_POSITIVE_TEXT]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE_TEXT]uneven numbers of players[ENDCOLOR]</Teaser>
     <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers of players[ENDCOLOR]
-[NEWLINE]
-[COLOR_NEGATIVE]Does not work as usual mods do! Requires starting the game with JdH's CiV MP Mod Manager or executing Multiplayer Mods Workaround[ENDCOLOR]</Description>
+Contains Worldsizes for uneven numbers of players.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]Does not work as usual mods do! Requires starting the game with JdH's CiV MP Mod Manager or executing Multiplayer Mods Workaround.[ENDCOLOR]</Description>
     <Authors>_Terra_</Authors>
     <HideSetupGame>0</HideSetupGame>
-    <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <AffectsSavedGames>0</AffectsSavedGames>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -26,12 +24,17 @@ Contains [COLOR_POSITIVE]Worldsizes[ENDCOLOR] for [COLOR_POSITIVE]uneven numbers
   <References />
   <Blocks />
   <Files>
-    <File md5="CA34242225F4DD60F00AD15E09410DEB" import="1">AssignStartingPlots.lua</File>
-    <File md5="27F5674D64621819228A0705068E7EFC" import="1">FeatureGenerator.lua</File>
-    <File md5="35E1A01A1D99A95D0EEBC0CA73C1F37F" import="0">Worlds.xml</File>
+    <File md5="C265ED2263F271601B86AD9195FE60D8" import="0">Art/WorldsizeAtlasExtended128.dds</File>
+    <File md5="A6A322A2F95EBA2811847B98692124A6" import="1">Art/WorldsizeAtlasExtended32.dds</File>
+    <File md5="E804DB8E027DFD728B5D4CCAA48C5CE3" import="1">Art/WorldsizeAtlasExtended64.dds</File>
+    <File md5="C47F1E845BAFA457DC75C074523D6F64" import="1">AssignStartingPlots.lua</File>
+    <File md5="1B480CDD314B646DA246F85602E6C346" import="1">FeatureGenerator.lua</File>
+    <File md5="AC4F00D51D1BB0AF347B0B890EE66410" import="1">WorldsizeIcons.xml</File>
+    <File md5="6FBA01741EA9611879A9288670B1B9A2" import="0">Worlds.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
+      <UpdateDatabase>WorldsizeIcons.xml</UpdateDatabase>
       <UpdateDatabase>Worlds.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>

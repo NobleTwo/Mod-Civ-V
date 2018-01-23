@@ -7,12 +7,11 @@
     <Guid>6f43fd2b-912a-4f94-96a7-75d865808da7</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
-    <Teaser>[COLOR_POSITIVE]Balances[ENDCOLOR] most [COLOR_POSITIVE]Civilizations[ENDCOLOR]</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
-[NEWLINE]
+    <Teaser>[COLOR_POSITIVE_TEXT]Balances[ENDCOLOR] most [COLOR_POSITIVE_TEXT]Civilizations[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR][NEWLINE]
 Balances most Civilizations</Description>
-    <Authors>Terra</Authors>
-    <SpecialThanks>whoward69</SpecialThanks>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>whoward69, NQ MOD</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
@@ -72,11 +71,6 @@ Balances most Civilizations</Description>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Maya/Maya.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>Netherlands/Netherlands.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>

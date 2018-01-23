@@ -39,7 +39,7 @@ Controls.StartButton:RegisterCallback( Mouse.eLClick, OnStart );
 -------------------------------------------------
 -------------------------------------------------
 function OnAdvanced()
-    UIManager:QueuePopup( Controls.AdvancedSetup, PopupPriority.AdvancedSetup );
+    UIManager:QueuePopup( Controls.AdvancedSetup, PopupPriority.OptionsMenu ); --original: PopupPriority.AdvancedSetup
 end
 Controls.AdvancedButton:RegisterCallback( Mouse.eLClick, OnAdvanced );
 
@@ -106,7 +106,7 @@ Controls.RemoveButton:RegisterCallback( Mouse.eLClick, OnCancel );
 -------------------------------------------------
 -------------------------------------------------
 function OnCivilization()
-    UIManager:QueuePopup( Controls.SelectCivilization, PopupPriority.SelectCivilization );
+    UIManager:QueuePopup( Controls.SelectCivilization, PopupPriority.OptionsMenu ); --original: PopupPriority.PopupPriority.SelectCivilization
     Controls.MainSelection:SetHide( true );
     Controls.SelectGameSpeed:SetHide( true );
     Controls.SelectDifficulty:SetHide( true );
@@ -491,7 +491,7 @@ function SetSelectedCiv()
         
         Controls.BonusDescription:SetText( Locale.ConvertTextKey( trait.Description ));
         
-        SetCivName(civ.ShortDescription, leaderDescription, trait.ShortDescription);
+        SetCivName(leaderDescription, civ.ShortDescription, trait.ShortDescription);
         
         -- Sets Bonus Icons
         PopulateUniqueBonuses( Controls, civ, leader );

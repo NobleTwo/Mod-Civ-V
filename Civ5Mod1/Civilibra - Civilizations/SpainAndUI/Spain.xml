@@ -11,7 +11,7 @@
 	<!-- Reduces costs of Conquistadors to usual Knight costs.-->
 	<Units>
 		<Update>
-			<Set Cost="120" FoundAbroad="false" WorkRate="100"/>
+			<Set Cost="120" FaithCost="240" FoundAbroad="false" WorkRate="100"/>
 			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
 		</Update>
 	</Units>

@@ -1,0 +1,25 @@
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WORLDSIZE_ATLAS_EXTENDED</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>WorldsizeAtlasExtended128.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WORLDSIZE_ATLAS_EXTENDED</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>WorldsizeAtlasExtended64.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WORLDSIZE_ATLAS_EXTENDED</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>WorldsizeAtlasExtended32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

@@ -1,0 +1,36 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Balances Units of the game and makes some more useful.
+
+[h1]Detailed Changes:[/h1]
+[list]
+   [*] [b]Chariot Archers[/b]
+      [list]
+        [*] Changes: Decreased ranged attack of chariot archers and all units that replace it by "1".
+	[*] Motivation: Chariot Archers dominate their era in the unmodded game. Decreasing their strength slightly should lower their impact.
+      [/list]
+   [*] [b]Composite Bowman[/b]
+      [list]
+        [*] Changes: Increased ranged attack of Composite Bowmans by 1.
+	[*] Motivation: This should make the additional costs of Composite Bowmans in comparison to Chariot Archers more worth.
+      [/list]
+   [*] [b]Short Ranged Units[/b]
+      [list]
+        [*] Changes: Increased range of Gatling Gun, Machine Gun and Bazooka by 1 from "1" to "2". Reduced ranged attack of Gatling Guns from "30" to "25".
+	[*] Motivation: With a range of 1, late game ranged units were quite useless. The Gatling Gun was therefore not really better than the Crossbowman which upgrades to Gatling Gun. Machine Guns and Bazookas only have a [niche] role anyway because with them the first flying units are available which are much more flexible. Therefore, increasing the range of these units by 1 should make them a bit more useful. In [compensation], the ranged attack of Gatling Guns is reduced by 5 so they don't start to dominate.
+      [/list]
+   [*] [b]Mounted Ranged Units[/b]
+      [list]
+        [*] Changes: Mounted Ranged Units (e.g. Chariot Archers) are now considered as a new class "Mounted Ranged Units" (from Archery Units). This new unit class is treated exactly the same as Mounted Units for all purposes except that they receive the promotion lines of Ranged Units.
+	[*] Motivation: This makes the gameplay more consistent because now all mounted units can be countered by anti-cavalry units.
+	[*] Credits: [url=]NQMOD[/url]
+      [/list]
+   [*] [b]Paradropping Units[/b]
+      [list]
+        [*] Changes: Paratroopers and XCOM Squads now have a unique class called "Paradropping Units". Units of this class are not able to get the promotion "Blitz".
+	[*] Motivation: With the buildings and Brandenburg Gate it was possible in the game to train Paratroopers and XCOM Squads that start with 3 promotions and are thus able to receive the promotion "Blitz" immediatley. These leads to strategies considered unfair because it is possible to declare war and conquer cities [i]in one turn[/i]. Changing the class of these two units and denying them the promotion "Blitz" [verhindern] this strategy.
+	[*] Credits: [url=]NQMOD[/url]
+      [/list]
+[/list]

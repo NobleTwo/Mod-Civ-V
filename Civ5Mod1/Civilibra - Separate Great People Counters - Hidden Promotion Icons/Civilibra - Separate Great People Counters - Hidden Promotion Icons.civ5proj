@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{9c4646d3-529c-4170-83a2-f9244e986443}</ProjectGuid>
+    <Name>Civilibra - Separate Great People Counters - Hidden Promotion Icons</Name>
+    <Guid>d5446fcc-803f-4846-ab0b-2ae55fa03801</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_POSITIVE_TEXT]Hides[ENDCOLOR] the [COLOR_POSITIVE_TEXT]promotion icon[ENDCOLOR] of the mod "SGPC (BNW)"</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR][NEWLINE]
+[COLOR_POSITIVE_TEXT]Hides[ENDCOLOR] the [COLOR_POSITIVE_TEXT]promotion icon[ENDCOLOR] of the mod "Separate Great People Counters (BNW)"</Description>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>Machiavelli for Separate Great People Counters</SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Civilibra - Modpack</AssemblyName>
+    <RootNamespace>Civilibra - Modpack</RootNamespace>
+    <ModReferences />
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>CIV5IconTextureAtlases.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>PromotionCreatedNewIcon.xml</FileName>
+      </Action>
+    </ModActions>
+    <ModProperties />
+    <ModDependencies>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Separate Great People Counters</Name>
+        <Id>ca261a13-6c5a-4b54-bbbd-d79217dc8df5</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModDependencies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Art\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Art\PromotionAtlasExtended256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\PromotionAtlasExtended32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\PromotionAtlasExtended45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\PromotionAtlasExtended64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="CIV5IconTextureAtlases.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="PromotionCreatedNewIcon.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

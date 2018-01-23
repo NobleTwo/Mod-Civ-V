@@ -1,0 +1,12 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Balances Religions, Pantheons and corresponding content.
+
+[h1]Detailed Changes:[/h1]
+[list]
+   [*] Great Prophet: Spawn rate after reaching required amount of faith increased to 100%. Therefore, the player who reaches the threhold first also gains the first Great Prophet.
+   [*] Dance of the Aurora now grants +1 Faith from each Tundra tile (including Forest) which makes it a much more useful Pantheon. This change gives rise to a funny graphical feature (not bug!) as well: For technical reasons, sometimes it is shown that a tile yield is +100 Faith (choose which tiles to work after the expectd yields, though, since it's only graphical).
+   [*] God of the Sea now grants +1 production per sea ressource (crabs, fish, pearls, whales) and atolls instead of per fishing boat. Thus, it is now useful earlier in the game.
+[/list]

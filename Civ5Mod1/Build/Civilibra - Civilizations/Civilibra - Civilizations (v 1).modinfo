@@ -3,12 +3,11 @@
   <Properties>
     <Name>Civilibra - Civilizations</Name>
     <Stability>Alpha</Stability>
-    <Teaser>[COLOR_POSITIVE]Balances[ENDCOLOR] most [COLOR_POSITIVE]Civilizations[ENDCOLOR]</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
-[NEWLINE]
+    <Teaser>[COLOR_POSITIVE_TEXT]Balances[ENDCOLOR] most [COLOR_POSITIVE_TEXT]Civilizations[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR][NEWLINE]
 Balances most Civilizations</Description>
-    <Authors>Terra</Authors>
-    <SpecialThanks>whoward69</SpecialThanks>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>whoward69, NQ MOD</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
@@ -34,16 +33,16 @@ Balances most Civilizations</Description>
     <File md5="B6C5B29647482084C3D18DC11381A690" import="0">Germany/Germany.xml</File>
     <File md5="BA28799D3AB7722507C423977343F250" import="0">Iroquois/Iroquois.xml</File>
     <File md5="4AF3FAF49902F515E26A9D284FFC6BFA" import="0">Japan/Japan.lua</File>
-    <File md5="671C1A18B47851D29E9F108D8729E0BF" import="0">Japan/Japan.xml</File>
+    <File md5="47249F7732C5043B31F94A1BC8DC4366" import="0">Japan/Japan.xml</File>
     <File md5="9652AD8B4D200419734E7BEFD5030AE4" import="0">Korea/Korea.xml</File>
     <File md5="DEA8D5B4C19839FDB919BE306187EF2A" import="0">Maya/Maya.xml</File>
     <File md5="58EED4BE21321B4DEF9BCC788887114E" import="0">Netherlands/Netherlands.xml</File>
     <File md5="BF406C14E13F560090F4D92C82E79D32" import="0">Poland/Poland.xml</File>
     <File md5="61D6AA274B7FD8D2C7450B0C0875FB8A" import="0">Polynesia/Polynesia.lua</File>
-    <File md5="81E16ED4649D1041D13B041C9B976AF0" import="0">Polynesia/Polynesia.xml</File>
+    <File md5="6164162571B9B22453B036B4BDE8A853" import="0">Polynesia/Polynesia.xml</File>
     <File md5="2910E4F66180C85FD17434A7909CD096" import="1">SpainAndUI/GenericWorldAnchor.lua</File>
     <File md5="D40F3D12D0D4B0B83E6C31ED6CAAE884" import="1">SpainAndUI/ResourceIconManager.lua</File>
-    <File md5="56050BC2253238A818CF200161A1B9B5" import="0">SpainAndUI/Spain.xml</File>
+    <File md5="C8B03EB10CB8DA684E37E8B57CAE2C95" import="0">SpainAndUI/Spain.xml</File>
     <File md5="BEB2956263E1CCA5CF3A72320A43FBC7" import="0">Venice/Venice.xml</File>
   </Files>
   <Actions>
@@ -58,7 +57,6 @@ Balances most Civilizations</Description>
       <UpdateDatabase>Japan/Japan.xml</UpdateDatabase>
       <UpdateDatabase>Korea/Korea.xml</UpdateDatabase>
       <UpdateDatabase>Maya/Maya.xml</UpdateDatabase>
-      <UpdateDatabase>Netherlands/Netherlands.xml</UpdateDatabase>
       <UpdateDatabase>Poland/Poland.xml</UpdateDatabase>
       <UpdateDatabase>Polynesia/Polynesia.xml</UpdateDatabase>
       <UpdateDatabase>SpainAndUI/Spain.xml</UpdateDatabase>

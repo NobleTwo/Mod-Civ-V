@@ -3,7 +3,7 @@
 	<Units>
 		<Update>
 			<Set Class="UNITCLASS_SWORDSMAN" ObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING" Combat="16" Cost="75" FaithCost="150" HurryCostModifier="20" GoodyHutUpgradeUnitClass="UNITCLASS_LONGSWORDSMAN" AdvancedStartCost="20" Conscription="1"/>
-				<Where Type="UNIT_JAPANESE_SAMURAI"/>
+			<Where Type="UNIT_JAPANESE_SAMURAI"/>
 		</Update>
 	</Units>
 	<Unit_ClassUpgrades>

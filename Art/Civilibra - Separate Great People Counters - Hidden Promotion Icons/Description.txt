@@ -1,0 +1,5 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Hides the promotion icon of the mod [url=]Separate Great People Counters (BNW)[/url] (needs the mentioned mod installed, of course).

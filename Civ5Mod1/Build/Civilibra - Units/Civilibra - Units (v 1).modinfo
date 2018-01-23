@@ -3,10 +3,10 @@
   <Properties>
     <Name>Civilibra - Units</Name>
     <Stability>Alpha</Stability>
-    <Teaser>[COLOR_POSITIVE]Balances Units[ENDCOLOR] of the game and makes some more useful</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+    <Teaser>[COLOR_POSITIVE_TEXT]Balances Units[ENDCOLOR] of the game and makes some more useful</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-[COLOR_POSITIVE]Balances Units[ENDCOLOR] of the game and makes some more useful</Description>
+Balances Units of the game and makes some more useful.</Description>
     <Authors>_Terra_</Authors>
     <SpecialThanks>NQMod</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>

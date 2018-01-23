@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d5446fcc-803f-4846-ab0b-2ae55fa03801" version="1">
+  <Properties>
+    <Name>Civilibra - Separate Great People Counters - Hidden Promotion Icons</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_POSITIVE_TEXT]Hides[ENDCOLOR] the [COLOR_POSITIVE_TEXT]promotion icon[ENDCOLOR] of the mod "SGPC (BNW)"</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR][NEWLINE]
+[COLOR_POSITIVE_TEXT]Hides[ENDCOLOR] the [COLOR_POSITIVE_TEXT]promotion icon[ENDCOLOR] of the mod "Separate Great People Counters (BNW)"</Description>
+    <Authors>_Terra_</Authors>
+    <SpecialThanks>Machiavelli for Separate Great People Counters</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="ca261a13-6c5a-4b54-bbbd-d79217dc8df5" minversion="0" maxversion="999" title="Separate Great People Counters" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="1F5EBB58CFC3C25E9EFA996115A65AD5" import="1">Art/PromotionAtlasExtended256.dds</File>
+    <File md5="6CDA5D6B272B8566FCC691FC51A0F8C8" import="1">Art/PromotionAtlasExtended32.dds</File>
+    <File md5="84581E57B8FD4F25FD9E560C92A7F27D" import="1">Art/PromotionAtlasExtended45.dds</File>
+    <File md5="E722E584C7B3B5E222593D5029ADB342" import="1">Art/PromotionAtlasExtended64.dds</File>
+    <File md5="EFF460BB474EC6D1D15F376169BA3477" import="0">CIV5IconTextureAtlases.xml</File>
+    <File md5="3FCBB711801905EA93480B518FC7A956" import="0">PromotionCreatedNewIcon.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>PromotionCreatedNewIcon.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

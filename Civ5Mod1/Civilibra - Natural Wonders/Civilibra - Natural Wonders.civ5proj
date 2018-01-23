@@ -7,10 +7,10 @@
     <Guid>5d464573-03fd-42f2-a90e-905943295bbb</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
-    <Teaser>[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Natural Wonders[ENDCOLOR] in the game</Teaser>
+    <Teaser>[COLOR_POSITIVE_TEXT]Balances[ENDCOLOR] the [COLOR_POSITIVE_TEXT]Natural Wonders[ENDCOLOR] in the game</Teaser>
     <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Natural Wonders[ENDCOLOR] in the game</Description>
+Balances the Natural Wonders in the game</Description>
     <Authors>_Terra_</Authors>
     <SpecialThanks>
     </SpecialThanks>

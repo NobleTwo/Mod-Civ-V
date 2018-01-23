@@ -335,15 +335,15 @@ function FeatureGenerator:AddAtolls()
 	};
 	local worldsizes = {
 		[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = 2,
-		[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = 3,
+		[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = 3,
 		[GameInfo.Worlds.WORLDSIZE_TINY.ID] = 4,
-		[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = 5,
+		[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = 5,
 		[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = 5,
 		[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = 6,
 		[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = 7,
-		[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = 8,
+		[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = 8,
 		[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = 9,
-		[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = 11,
+		[GameInfo.Worlds.WORLDSIZE_VAST.ID] = 11,
 		[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = 12,
 	};
 	local atoll_target = worldsizes[Map.GetWorldSize()];

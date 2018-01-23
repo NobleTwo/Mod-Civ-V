@@ -22,9 +22,9 @@
 		</Update>
 		<Row>
 			<ID>1</ID>
-			<Type>WORLDSIZE_VERY_TINY</Type>
-			<Description>TXT_KEY_WORLD_VERY_TINY</Description>
-			<Help>TXT_KEY_WORLD_VERY_TINY_HELP</Help>
+			<Type>WORLDSIZE_TEENY</Type>
+			<Description>TXT_KEY_WORLD_TEENY</Description>
+			<Help>TXT_KEY_WORLD_TEENY_HELP</Help>
 			<DefaultPlayers>3</DefaultPlayers>
 			<DefaultMinorCivs>6</DefaultMinorCivs>
 			<GridWidth>48</GridWidth>
@@ -45,14 +45,14 @@
 			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>82</AdvancedStartPointsMod>
 			<EstimatedNumCities>19</EstimatedNumCities>
-			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
-			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>WORLDSIZE_ATLAS_EXTENDED</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<ID>3</ID>
-			<Type>WORLDSIZE_QUITE_SMALL</Type>
-			<Description>TXT_KEY_WORLD_QUITE_SMALL</Description>
-			<Help>TXT_KEY_WORLD_QUITE_SMALL_HELP</Help>
+			<Type>WORLDSIZE_MINUTE</Type>
+			<Description>TXT_KEY_WORLD_MINUTE</Description>
+			<Help>TXT_KEY_WORLD_MINUTE_HELP</Help>
 			<DefaultPlayers>5</DefaultPlayers>
 			<DefaultMinorCivs>10</DefaultMinorCivs>
 			<GridWidth>61</GridWidth>
@@ -73,8 +73,8 @@
 			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>87</AdvancedStartPointsMod>
 			<EstimatedNumCities>33</EstimatedNumCities>
-			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
-			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>WORLDSIZE_ATLAS_EXTENDED</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
 		</Row>
 		<Row>
 			<ID>5</ID>
@@ -101,14 +101,14 @@
 			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>95</AdvancedStartPointsMod>
 			<EstimatedNumCities>46</EstimatedNumCities>
-			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
-			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>WORLDSIZE_ATLAS_EXTENDED</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<Row>
 			<ID>7</ID>
-			<Type>WORLDSIZE_NOT_LARGE_YET</Type>
-			<Description>TXT_KEY_WORLD_NOT_LARGE_YET</Description>
-			<Help>TXT_KEY_WORLD_NOT_LARGE_YET_HELP</Help>
+			<Type>WORLDSIZE_SPACIOUS</Type>
+			<Description>TXT_KEY_WORLD_SPACIOUS</Description>
+			<Help>TXT_KEY_WORLD_SPACIOUS_HELP</Help>
 			<DefaultPlayers>9</DefaultPlayers>
 			<DefaultMinorCivs>18</DefaultMinorCivs>
 			<GridWidth>92</GridWidth>
@@ -129,14 +129,14 @@
 			<NumCitiesTechCostMod>4.25</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>105</AdvancedStartPointsMod>
 			<EstimatedNumCities>66</EstimatedNumCities>
-			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
-			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>WORLDSIZE_ATLAS_EXTENDED</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
 		</Row>
 		<Row>
 			<ID>9</ID>
-			<Type>WORLDSIZE_ALMOST_HUGE</Type>
-			<Description>TXT_KEY_WORLD_ALMOST_HUGE</Description>
-			<Help>TXT_KEY_WORLD_ALMOST_HUGE_HELP</Help>
+			<Type>WORLDSIZE_VAST</Type>
+			<Description>TXT_KEY_WORLD_VAST</Description>
+			<Help>TXT_KEY_WORLD_VAST_HELP</Help>
 			<DefaultPlayers>11</DefaultPlayers>
 			<DefaultMinorCivs>22</DefaultMinorCivs>
 			<GridWidth>116</GridWidth>
@@ -157,25 +157,25 @@
 			<NumCitiesTechCostMod>3.125</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>115</AdvancedStartPointsMod>
 			<EstimatedNumCities>106</EstimatedNumCities>
-			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
-			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>WORLDSIZE_ATLAS_EXTENDED</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
 		</Row>
 	</Worlds>
 	<Language_en_US>
 		<Row>
-			<Tag>TXT_KEY_WORLD_VERY_TINY</Tag>
-			<Text>Very Tiny</Text>/>
+			<Tag>TXT_KEY_WORLD_TEENY</Tag>
+			<Text>Teeny</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_VERY_TINY_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_TEENY_HELP</Tag>
 			<Text>3 players with 6 City States.</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_QUITE_SMALL</Tag>
-			<Text>Quite Small</Text>/>
+			<Tag>TXT_KEY_WORLD_MINUTE</Tag>
+			<Text>Minute</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_QUITE_SMALL_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_MINUTE_HELP</Tag>
 			<Text>5 players with 10 City States.</Text>/>
 		</Row>
 		<Row>
@@ -187,37 +187,37 @@
 			<Text>7 players with 14 City States.</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET</Tag>
-			<Text>Not Large Yet</Text>/>
+			<Tag>TXT_KEY_WORLD_SPACIOUS</Tag>
+			<Text>Spacious</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_SPACIOUS_HELP</Tag>
 			<Text>9 players with 18 City States.</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_ALMOST_HUGE</Tag>
-			<Text>Almost Huge</Text>/>
+			<Tag>TXT_KEY_WORLD_VAST</Tag>
+			<Text>Vast</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_ALMOST_HUGE_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_VAST_HELP</Tag>
 			<Text>11 players with 22 City States.</Text>/>
 		</Row>
 	</Language_en_US>
 	<Language_DE_DE>
 		<Row>
-			<Tag>TXT_KEY_WORLD_VERY_TINY</Tag>
-			<Text>Überaus winzig</Text>/>
+			<Tag>TXT_KEY_WORLD_TEENY</Tag>
+			<Text>Klitzeklein</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_VERY_TINY_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_TEENY_HELP</Tag>
 			<Text>3 Spieler 6 Stadtstaaten.</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_QUITE_SMALL</Tag>
-			<Text>Ziemlich klein</Text>/>
+			<Tag>TXT_KEY_WORLD_MINUTE</Tag>
+			<Text>Gering</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_QUITE_SMALL_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_MINUTE_HELP</Tag>
 			<Text>5 Spieler mit 10 Stadtstaaten.</Text>/>
 		</Row>
 		<Row>
@@ -229,19 +229,19 @@
 			<Text>7 Spieler mit 14 Stadtstaaten.</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET</Tag>
+			<Tag>TXT_KEY_WORLD_SPACIOUS</Tag>
 			<Text>Nocht nicht groß</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_NOT_LARGE_YET_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_SPACIOUS_HELP</Tag>
 			<Text>9 Spieler mit 18 Stadtstaaten.</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_ALMOST_HUGE</Tag>
-			<Text>Fast riesig</Text>/>
+			<Tag>TXT_KEY_WORLD_VAST</Tag>
+			<Text>Enorm</Text>/>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WORLD_ALMOST_HUGE_HELP</Tag>
+			<Tag>TXT_KEY_WORLD_VAST_HELP</Tag>
 			<Text>11 Spieler mit 22 Stadtstaaten.</Text>/>
 		</Row>
 	</Language_DE_DE>

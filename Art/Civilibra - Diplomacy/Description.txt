@@ -1,0 +1,12 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Aims at increasing the fairness of the game and making Diplomacy in multiplayer games easier.
+
+[h1]Detailed Changes:[/h1]
+[list]
+   [*] Research Agreements are now disabled because they gave an unfair advantage in multiplayer and were useless in singleplayer.
+   [*] Embassies and Open-Border-Agreements are available from the beginning of the game. This makes it unnecessary in multiplayer games to declare war for crossing borders.
+   [*] The option "Embargo City States" in World Congress is now available only after the first player researches the technology "Radio". Therefore, it should be availbale as soon as City States contribute delegates to the World Congress and a player with many City State allies can try to [abwwenden] this resolution.
+[/list]

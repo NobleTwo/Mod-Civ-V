@@ -6059,15 +6059,15 @@ function AssignStartingPlots:PlaceNaturalWonders()
 	-- The final number cannot exceed the number the map has locations to support.
 	local worldsizes = {
 		[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = 2,
-		[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = 3,
+		[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = 3,
 		[GameInfo.Worlds.WORLDSIZE_TINY.ID] = 4,
-		[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = 5,
+		[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = 5,
 		[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = 5,
 		[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = 6,
 		[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = 7,
-		[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = 8,
+		[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = 8,
 		[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = 9,
-		[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = 11,
+		[GameInfo.Worlds.WORLDSIZE_VAST.ID] = 11,
 		[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = 12,
 	};
 	local target_number = worldsizes[Map.GetWorldSize()];
@@ -7905,15 +7905,15 @@ function AssignStartingPlots:GetCityStateLuxuriesTargetNumber()
 	-- This data was separated out to allow easy replacement in map scripts.
 	local worldsizes = {
 		[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = 3,
-		[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = 3,
+		[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = 3,
 		[GameInfo.Worlds.WORLDSIZE_TINY.ID] = 3,
-		[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = 3,
+		[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = 3,
 		[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = 3,
 		[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = 3,
 		[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = 3,
-		[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = 4,
+		[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = 4,
 		[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = 4,
-		[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = 4,
+		[GameInfo.Worlds.WORLDSIZE_VAST.ID] = 4,
 		[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = 4,
 	};
 	local CSluxCount = worldsizes[Map.GetWorldSize()];
@@ -7924,15 +7924,15 @@ function AssignStartingPlots:GetDisabledLuxuriesTargetNumber()
 	-- This data was separated out to allow easy replacement in map scripts.
 	local worldsizes = {
 		[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = 11,
-		[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = 10,
+		[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = 10,
 		[GameInfo.Worlds.WORLDSIZE_TINY.ID] = 8,
-		[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = 7,
+		[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = 7,
 		[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = 6,
 		[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = 5,
 		[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = 4,
-		[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = 3,
+		[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = 3,
 		[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = 2,
-		[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = 2,
+		[GameInfo.Worlds.WORLDSIZE_VAST.ID] = 2,
 		[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = 1,
 	};
 	local maxToDisable = worldsizes[Map.GetWorldSize()];
@@ -8502,11 +8502,11 @@ function AssignStartingPlots:GetRegionLuxuryTargetNumbers()
 	-- This table, indexed by civ-count, provides the target amount of luxuries to place in each region.
 	local duel_values = table.fill(1, 22); -- Max is one per region for all player counts at this size.
 	--
-	local very_tiny_values = {0, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+	local teeny_values = {0, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 	--
 	local tiny_values = {0, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 	--
-	local quite_small_values = {0, 3, 2, 3, 3, 3, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+	local minute_values = {0, 3, 2, 3, 3, 3, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 	--
 	local small_values = {0, 3, 3, 3, 4, 4, 4, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 	--
@@ -8514,25 +8514,25 @@ function AssignStartingPlots:GetRegionLuxuryTargetNumbers()
 	--
 	local standard_values = {0, 3, 3, 4, 4, 5, 5, 6, 5, 4, 4, 3, 3, 2, 2, 1, 1, 1, 1, 1, 1, 1};
 	--
-	local not_large_yet_values = {0, 3, 3, 4, 5, 5, 5, 6, 5, 6, 5, 4, 4, 3, 3, 2, 2, 1, 2, 1, 2, 1};
+	local spacious_values = {0, 3, 3, 4, 5, 5, 5, 6, 5, 6, 5, 4, 4, 3, 3, 2, 2, 1, 2, 1, 2, 1};
 	--
 	local large_values = {0, 3, 4, 4, 5, 5, 5, 6, 6, 7, 6, 5, 5, 4, 4, 3, 3, 2, 2, 2, 2, 2};
 	--
-	local almost_huge_values = {0, 3, 5, 4, 6, 5, 6, 6, 6, 7, 7, 6, 6, 5, 5, 4, 4, 4, 3, 3, 2, 2};
+	local vast_values = {0, 3, 5, 4, 6, 5, 6, 6, 6, 7, 7, 6, 6, 5, 5, 4, 4, 4, 3, 3, 2, 2};
 	--
 	local huge_values = {0, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 7, 6, 6, 5, 5, 4, 4, 3, 3, 2};
 	--
 	local worldsizes = {
 		[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = duel_values,
-		[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = very_tiny_values,
+		[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = teeny_values,
 		[GameInfo.Worlds.WORLDSIZE_TINY.ID] = tiny_values,
-		[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = quite_small_values,
+		[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = minute_values,
 		[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = small_values,
 		[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = medium_values,
 		[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = standard_values,
-		[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = not_large_yet_values,
+		[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = spacious_values,
 		[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = large_values,
-		[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = almost_huge_values,
+		[GameInfo.Worlds.WORLDSIZE_VAST.ID] = vast_values,
 		[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = huge_values
 	};
 	local target_list = worldsizes[Map.GetWorldSize()];
@@ -8551,43 +8551,43 @@ function AssignStartingPlots:GetWorldLuxuryTargetNumbers()
 	if self.resource_setting == 1 then -- Sparse
 		worldsizes = {
 			[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = {14, 3},
-			[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = {19, 3},
+			[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = {19, 3},
 			[GameInfo.Worlds.WORLDSIZE_TINY.ID] = {24, 4},
-			[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = {30, 4},
+			[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = {30, 4},
 			[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = {36, 4},
 			[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = {42, 4},
 			[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = {48, 5},
-			[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = {54, 5},
+			[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = {54, 5},
 			[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = {60, 5},
-			[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = {68, 5},
+			[GameInfo.Worlds.WORLDSIZE_VAST.ID] = {68, 5},
 			[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = {76, 6}
 		}
 	elseif self.resource_setting == 3 then -- Abundant
 		worldsizes = {
 			[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = {24, 3},
-			[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = {32, 3},
+			[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = {32, 3},
 			[GameInfo.Worlds.WORLDSIZE_TINY.ID] = {40, 4},
-			[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = {50, 4},
+			[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = {50, 4},
 			[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = {60, 4},
 			[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = {70, 4},
 			[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = {80, 5},
-			[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = {90, 5},
+			[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = {90, 5},
 			[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = {100, 5},
-			[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = {114, 5},
+			[GameInfo.Worlds.WORLDSIZE_VAST.ID] = {114, 5},
 			[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = {128, 6}
 		}
 	else -- Standard
 		worldsizes = {
 			[GameInfo.Worlds.WORLDSIZE_DUEL.ID] = {18, 3},
-			[GameInfo.Worlds.WORLDSIZE_VERY_TINY.ID] = {24, 3},
+			[GameInfo.Worlds.WORLDSIZE_TEENY.ID] = {24, 3},
 			[GameInfo.Worlds.WORLDSIZE_TINY.ID] = {30, 4},
-			[GameInfo.Worlds.WORLDSIZE_QUITE_SMALL.ID] = {37, 4},
+			[GameInfo.Worlds.WORLDSIZE_MINUTE.ID] = {37, 4},
 			[GameInfo.Worlds.WORLDSIZE_SMALL.ID] = {45, 4},
 			[GameInfo.Worlds.WORLDSIZE_MEDIUM.ID] = {52, 4},
 			[GameInfo.Worlds.WORLDSIZE_STANDARD.ID] = {60, 5},
-			[GameInfo.Worlds.WORLDSIZE_NOT_LARGE_YET.ID] = {67, 5},
+			[GameInfo.Worlds.WORLDSIZE_SPACIOUS.ID] = {67, 5},
 			[GameInfo.Worlds.WORLDSIZE_LARGE.ID] = {75, 5},
-			[GameInfo.Worlds.WORLDSIZE_ALMOST_HUGE.ID] = {85, 5},
+			[GameInfo.Worlds.WORLDSIZE_VAST.ID] = {85, 5},
 			[GameInfo.Worlds.WORLDSIZE_HUGE.ID] = {95, 6}
 		}
 	end

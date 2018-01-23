@@ -3,16 +3,13 @@
   <Properties>
     <Name>Civilibra - Modpack</Name>
     <Stability>Alpha</Stability>
-    <Teaser>[COLOR_POSITIVE]Combines[ENDCOLOR] many different nice mods to a [COLOR_POSITIVE]Modpack[ENDCOLOR]</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
-[NEWLINE]
-[COLOR_POSITIVE]Combines[ENDCOLOR] many different nice mods to a [COLOR_POSITIVE]Modpack[ENDCOLOR]
-[NEWLINE]
-UI - Notification Options can be found at http://www.picknmixmods.com/mods/CivV/UI/Notification Options.html.</Description>
+    <Teaser>[COLOR_POSITIVE_TEXT]Combines[ENDCOLOR] many different nice mods to a [COLOR_POSITIVE_TEXT]Modpack[ENDCOLOR]</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR][NEWLINE]
+[COLOR_POSITIVE_TEXT]Combines[ENDCOLOR] many different nice mods to a [COLOR_POSITIVE]Modpack[ENDCOLOR]</Description>
     <Authors>_Terra_</Authors>
+    <SpecialThanks>Machiavelli for Separate Great People Counters</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
-    <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <AffectsSavedGames>0</AffectsSavedGames>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -29,22 +26,23 @@ UI - Notification Options can be found at http://www.picknmixmods.com/mods/CivV/
     <Mod id="66743884-90cd-4de4-9ea2-dfbbe608c3d1" minversion="0" maxversion="999" title="UI - Notification Options" />
     <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
     <Mod id="69a59cfc-6df8-4e46-9d81-de551804925d" minversion="0" maxversion="999" title="Gibraltar, Reef, and Krakatoa Fixes" />
+    <Mod id="fb30e172-cb74-4a4d-9fc1-bfbbfc2e6787" minversion="0" maxversion="999" title="Civilibra - Alphabetical Civilizations" />
+    <Mod id="e506583d-8c2b-4df7-8420-af34e3ec8d9f" minversion="0" maxversion="999" title="Civilibra - Buildings and Improvements" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="EFF460BB474EC6D1D15F376169BA3477" import="0">Art/CIV5IconTextureAtlases.xml</File>
     <File md5="1F5EBB58CFC3C25E9EFA996115A65AD5" import="1">Art/PromotionAtlasExtended256.dds</File>
     <File md5="6CDA5D6B272B8566FCC691FC51A0F8C8" import="1">Art/PromotionAtlasExtended32.dds</File>
     <File md5="84581E57B8FD4F25FD9E560C92A7F27D" import="1">Art/PromotionAtlasExtended45.dds</File>
     <File md5="E722E584C7B3B5E222593D5029ADB342" import="1">Art/PromotionAtlasExtended64.dds</File>
-    <File md5="8D4B24CC91F8775F1104C12759457C25" import="0">Art/PromotionCreatedNewIcon.xml</File>
-    <File md5="15F819B76166C949EFCBF3CD5BA96EC5" import="1">GameMenus/MainMenu.lua</File>
+    <File md5="EFF460BB474EC6D1D15F376169BA3477" import="0">CIV5IconTextureAtlases.xml</File>
+    <File md5="3FCBB711801905EA93480B518FC7A956" import="0">PromotionCreatedNewIcon.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>Art/CIV5IconTextureAtlases.xml</UpdateDatabase>
-      <UpdateDatabase>Art/PromotionCreatedNewIcon.xml</UpdateDatabase>
+      <UpdateDatabase>CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>PromotionCreatedNewIcon.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

@@ -3,11 +3,12 @@
   <Properties>
     <Name>Civilibra - Buildings</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Makes some [COLOR_POSITIVE]Buildings[ENDCOLOR] more useful</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+    <Teaser>Makes some [COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR] more useful</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-Makes some [COLOR_POSITIVE]Buildings[ENDCOLOR] more useful</Description>
+Makes some [COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR] more useful and helps increasing the fairness of the game.</Description>
     <Authors>_Terra_</Authors>
+    <SpecialThanks>donquiche for the Ingame Editor</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>

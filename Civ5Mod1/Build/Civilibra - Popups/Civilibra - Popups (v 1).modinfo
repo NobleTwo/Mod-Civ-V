@@ -3,10 +3,10 @@
   <Properties>
     <Name>Civilibra - Popups</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Fixes order in which [COLOR_POSITIVE]Popups[ENDCOLOR] appear</Teaser>
-    <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
+    <Teaser>Fixes [COLOR_POSITIVE_TEXT]order[ENDCOLOR] in which [COLOR_POSITIVE_TEXT]Popups[ENDCOLOR] appear</Teaser>
+    <Description>part of the [COLOR_POSITIVE_TEXT]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-Fixes order in which [COLOR_POSITIVE]Popups[ENDCOLOR] appear</Description>
+Fixes order in which Popups appear</Description>
     <Authors>_Terra_</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
@@ -24,7 +24,8 @@ Fixes order in which [COLOR_POSITIVE]Popups[ENDCOLOR] appear</Description>
   <References />
   <Blocks />
   <Files>
-    <File md5="A1992C99202679E41BF0B77F6B32DA58" import="1">NaturalWonderPopup.lua</File>
-    <File md5="379EF670C294FC1A444B8FF8A55B983B" import="1">TechAwardPopup.lua</File>
+    <File md5="B2076061D6810F46E42ABECD29D5ED0C" import="1">GoodyHutPopup.lua</File>
+    <File md5="3C05CBBCC8C2DBF4EBAADF43C0C024F8" import="1">NaturalWonderPopup.lua</File>
+    <File md5="10E96DA767592AC9899A27E7CC47FF25" import="1">TechAwardPopup.lua</File>
   </Files>
 </Mod>

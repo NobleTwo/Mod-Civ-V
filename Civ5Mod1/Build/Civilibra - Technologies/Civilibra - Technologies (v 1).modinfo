@@ -3,10 +3,10 @@
   <Properties>
     <Name>Civilibra - Technologies</Name>
     <Stability>Alpha</Stability>
-    <Teaser>[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Technologies[ENDCOLOR] in the game</Teaser>
+    <Teaser>[COLOR_POSITIVE_TEXT]Balances[ENDCOLOR] the [COLOR_POSITIVE_TEXT]Technologies[ENDCOLOR] in the game</Teaser>
     <Description>part of the [COLOR_POSITIVE]Civilibra Balancing and Enhancement Project[ENDCOLOR]
 [NEWLINE]
-[COLOR_POSITIVE]Balances[ENDCOLOR] the [COLOR_POSITIVE]Technologies[ENDCOLOR] in the game</Description>
+Balances the Technologies in the game.</Description>
     <Authors>_Terra_</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>

@@ -1,5 +1,4 @@
 <GameData>
-	<!-- adds the Climb the Mast-Promotion-->
 	<UnitPromotions>
 		<Row>
 			<Type>PROMOTION_CLIMB_MAST</Type>
@@ -13,11 +12,11 @@
 			<PediaEntry>TXT_KEY_PROMOTION_CLIMB_MAST</PediaEntry>
 		</Row>
 	</UnitPromotions>
-
+	
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
-			<PromotionType>PROMOTION_CLIMB_MAST</PromotionType>
+			<PromotionType>PROMOTION_SHOCK_I</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	
@@ -37,12 +36,11 @@
 			<Text>[COLOR_POSITIVE_TEXT]Deckt[ENDCOLOR] das Terrain in [COLOR_POSITIVE_TEXT]5 Feldern Reichweite auf[ENDCOLOR] wenn gewassert.</Text>
 		</Row>
 	</Language_DE_DE>
-	
 	<!-- converts the Polynesian Maori Warrior to a scout unit-->
 	<Units>
 		<Update>
 			<Set Class="UNITCLASS_SCOUT" Combat="5" Cost="25" FaithCost="50" RequiresFaithPurchaseEnabled="true" CombatClass="UNITCOMBAT_RECON" DefaultUnitAI="UNITAI_EXPLORE" NoBadGoodies="true" ObsoleteTech="TECH_SCIENTIFIC_THEORY" GoodyHutUpgradeUnitClass="UNITCLASS_ARCHER"/>
-				<Where Type="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+			<Where Type="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
 		</Update>
 	</Units>
 	<Unit_AITypes>
@@ -80,7 +78,7 @@
 			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP"/>
 		</Update>
 		<Update>
-			<Set Text="The Maori Warrior is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. Build plenty of these units early for their promotion stays with them as they are upgraded. Use it also to scout the coast and find spots to settle and place your Moais."/>
+			<Set Text="The Maori Scout is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. Build plenty of these units early for their promotion stays with them as they are upgraded. Use it also to scout the coast and find spots to settle and place your Moais."/>
 			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY"/>
 		</Update>
 	</Language_en_US>
@@ -94,7 +92,7 @@
 			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP"/>
 		</Update>
 		<Update>
-			<Set Text="Der Maori-Krieger ähnelt einem Großen General; er erhöht jedoch nicht die Stärke freundlich gesinnter Einheiten in der Nähe, sondern verringert die Stärke naher feindlicher Einheiten. Baut schon zu Beginn viele dieser Einheiten, denn ihre Beförderungen bleiben bei Modernisierungen erhalten. Benutzt ihn auch, um die Küste zu erforschen und Siedlungsplätze und Positionen für Moais zu finden."/>
+			<Set Text="Der Maori-Späher ähnelt einem Großen General; er erhöht jedoch nicht die Stärke freundlich gesinnter Einheiten in der Nähe, sondern verringert die Stärke naher feindlicher Einheiten. Baut schon zu Beginn viele dieser Einheiten, denn ihre Beförderungen bleiben bei Modernisierungen erhalten. Benutzt ihn auch, um die Küste zu erforschen und Siedlungsplätze und Positionen für Moais zu finden."/>
 			<Where Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY"/>
 		</Update>
 	</Language_DE_DE>

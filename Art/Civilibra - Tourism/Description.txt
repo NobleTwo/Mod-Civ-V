@@ -1,0 +1,11 @@
+part of the [url=][h1]Civilibra Balancing and Enhancement Project[/h1][/url]
+
+-----------
+
+Slightly enhances some Tourism related content.
+
+[h1]Detailed Changes:[/h1]
+[list]
+   [*] World Wonders now grant Tourism, as soon as a Technology of a later Era ist researched. Yield is +4/+5/+6/+7/+8/+9, provided after researching  Printing Press (Ancient/ Classical/ Medieval Era), Archaelogy (Renaissance Era), Radio (Industrial Era), Computers (Modern Era), Telecommuncation (Atomic Era), Globalization (Information Era). This makes Culture Victory slightly more [wettbewerbsfähig].
+   [*] Wonder Theming Bonuses don't require owner of a different civilization anymore.
+[/list]
